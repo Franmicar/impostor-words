@@ -8,6 +8,7 @@ import { TranslateModule } from '@ngx-translate/core';
   imports: [MatButtonModule, TranslateModule, MatIconModule],
   templateUrl: './button.html',
   styleUrl: './button.scss',
+  standalone: true
 })
 
 export class Button {

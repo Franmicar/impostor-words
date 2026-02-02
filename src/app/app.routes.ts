@@ -10,18 +10,21 @@ import { Packages } from './pages/packages/packages';
 import { Duration } from './pages/duration/duration';
 import { Choice } from './pages/choice/choice';
 import { Vote } from './pages/vote/vote';
+import { PreventExitGuard } from './core/services/prevent-exit-guard';
+import { KillResult } from './pages/kill-result/kill-result';
 
 export const routes: Routes = [
   { path: '', component: Home },
   { path: 'setup', component: Setup },
-  { path: 'round', component: Round },
-  { path: 'reveal', component: Reveal },
   { path: 'mode', component: Mode },
   { path: 'players', component: Players },
   { path: 'hints', component: Hints },
   { path: 'packages', component: Packages },
   { path: 'duration', component: Duration },
-  { path: 'choice', component: Choice },
-  { path: 'vote', component: Vote },
+  { path: 'round', component: Round, canDeactivate: [PreventExitGuard] },
+  { path: 'reveal', component: Reveal, canDeactivate: [PreventExitGuard] },
+  { path: 'choice', component: Choice, canDeactivate: [PreventExitGuard] },
+  { path: 'vote', component: Vote, canDeactivate: [PreventExitGuard] },
+  { path: 'kill-result', component: KillResult, canDeactivate: [PreventExitGuard] },
   { path: '**', redirectTo: '' }
 ];

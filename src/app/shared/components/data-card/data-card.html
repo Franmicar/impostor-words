@@ -5,9 +5,12 @@
     <mat-card-content>
         @if (data.img) {
         <img [src]="data.img" width="200" height="120">
+        } @else if (dataIsPlayer) {
+        <img src="images/unknown.jpg" width="200" height="120">
         }
-        @if (data.text) {
+        @if (hasText(data)) {
         <p>{{ data.text | translate }}</p>
         }
+
     </mat-card-content>
 </mat-card>

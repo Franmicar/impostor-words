@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { GameConfig } from './game-config';
 import { Game } from '../models/game.model';
 import { Player, Role } from '../models/player.model';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
@@ -12,8 +14,15 @@ export class GameStateService {
   private readonly STORAGE_KEY = 'game_state';
   public currentPlayerIndex = 0;
 
-  constructor(private configService: GameConfig) {
+  allowExit = false;
+
+  constructor(private configService: GameConfig, private router: Router) {
     this.loadOrCreate();
+    this.router.events
+      .pipe(filter(event => event instanceof NavigationEnd))
+      .subscribe(() => {
+        this.allowExit = false; // 🔒 bloqueo automático al entrar en cualquier ruta
+      });
   }
 
   /** Obtener configuración (solo lectura) */
@@ -60,6 +69,7 @@ export class GameStateService {
   startGame() {
     this.update({
       word: this.pickRandomWord(),
+      state: 'revealing'
     });
     this.pickImpostors();
   }
@@ -135,7 +145,38 @@ export class GameStateService {
   }
 
   setStartingPlayer(name: string) {
-    // const index = this.configService.config.names.indexOf(name);
-    // this.currentPlayerIndex = index;
+    this.update({
+      players: this.game.players.map(player => {
+        if (player.name === name) {
+          player.isStartingPlayer = true;
+        }
+        return player;
+      })
+    });
+  }
+
+  vote(playerId: number) {
+    this.update({
+      players: this.game.players.map(player => {
+        if (player.position === playerId) {
+          player.isDead = true;
+          this.game.lastKilledPosition = playerId;
+        }
+        return player;
+      })
+    });
+    this.checkGameOver();
+  }
+
+  checkGameOver() {
+    const allImpostorsDead = this.game.players
+      .filter(p => p.role === 'impostor')
+      .every(p => p.isDead);
+
+    this.update({ isGameOver: allImpostorsDead });
+  }
+
+  allowNavigationOnce() {
+    this.allowExit = true;
   }
 }

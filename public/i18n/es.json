@@ -45,6 +45,16 @@
     "timeLeft": "Tiempo restante",
     "letsPlay": "¡A jugar!",
     "discoverImpostor": "Descubrir al impostor",
+    "reveal": "Reparto",
+    "exit": "Salir",
+    "accept": "Aceptar",
+    "continue": "Continuar",
+    "continueGame": "Seguir jugando",
+    "exitModal": {
+        "title": "Salir de la partida",
+        "message": "Si sales ahora perderás el progreso actual.",
+        "acceptText": "Salir de todas formas"
+    },
     "categories": {
         "food": "Comida",
         "movies": "Películas",

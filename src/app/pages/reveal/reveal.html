@@ -1,22 +1,29 @@
-<mat-card class="h-screen flex flex-col justify-center items-center">
+<app-title title="reveal"></app-title>
+<div class="body-container">
+    <mat-card>
 
-    <h2>{{ currentPlayerName }}</h2>
+        <mat-card-title>
+            <h2>{{ currentPlayerName }}</h2>
+        </mat-card-title>
 
-    <div class="reveal-wrapper">
+        <mat-card-content class="content">
+            <div class="reveal-wrapper">
 
-        <!-- TEXTO REVELADO -->
-        <div class="hidden-word">
-            {{ isImpostor ? 'IMPOSTOR' : ('words.' + gameStateService.game.word | translate) }}
-        </div>
+                <!-- TEXTO REVELADO -->
+                <div class="hidden-word" [style.color]="isImpostor ? '#8b0000' : '#1a8cd8'">
+                    {{ isImpostor ? 'IMPOSTOR' : ('words.' + gameStateService.game.word | translate) }}
+                </div>
 
-        <!-- CARD DESLIZABLE -->
-        <mat-card cdkDrag cdkDragLockAxis="y" (cdkDragEnded)=" onDragEnd($event)" class="cover-card">
-            <mat-card-content>
-                {{ 'swipeUp' | translate}}
-            </mat-card-content>
-        </mat-card>
+                <!-- CARD DESLIZABLE -->
+                <mat-card cdkDrag cdkDragLockAxis="y" (cdkDragEnded)=" onDragEnd($event)" class="cover-card">
+                    <mat-card-content>
+                        {{ 'swipeUp' | translate}}
+                    </mat-card-content>
+                </mat-card>
 
-    </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
 
     @if (revealed) {
     @if (gameStateService.isLastPlayer()) {
@@ -25,5 +32,4 @@
     <app-button label="nextPlayer" variant="filled" (action)="next()"></app-button>
     }
     }
-
-</mat-card>
+</div>

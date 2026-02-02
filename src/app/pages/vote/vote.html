@@ -1,22 +1,17 @@
-<div class="container">
+<div class="body-container">
     <div class="header">
         <h1 class="title">Vota por el impostor</h1>
         <p class="subtitle">Elige a la persona que crees que es el impostor</p>
     </div>
 
     <div class="players-grid">
-        <!-- @for (player of players; track player.id) {
-        <div class="player-card" (click)="vote(player.id)">
-            <div class="player-avatar">
-                <img [src]="player.avatar" alt="{{ player.name }}">
-            </div>
-            <div class="player-info">
-                <h3 class="player-name">{{ player.name }}</h3>
-                <p class="player-role">{{ player.role }}</p>
-            </div>
-        </div>
-        } -->
+        @for (player of players; track player.position) {
+        @if (!player.isDead) {
+        <app-data-card [data]="player" (clicked)="selectPlayer(player.position)"
+            [selected]="player.position === selectedPlayer"></app-data-card>
+        }
+        }
     </div>
 
-    <app-button label="Votar" (action)="submitVote()" size="large"></app-button>
+    <app-button label="Votar" (action)="submitVote()" size="large" [disabled]="!selectedPlayer"></app-button>
 </div>

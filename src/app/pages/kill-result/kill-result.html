@@ -1,0 +1,38 @@
+<div class="result-screen">
+
+    <!-- MENSAJE SEGÚN A QUIÉN MATASTE -->
+    @if (killedPlayer.role === 'civilian') {
+    <h2>
+        ¡{{ killedPlayer.name }} NO era el impostor!
+    </h2>
+    }
+
+    @if (killedPlayer.role === 'impostor') {
+    <h2 class="success">
+        ¡Has cazado a un impostor! 🎯
+    </h2>
+    }
+
+    <!-- SI EL JUEGO SIGUE -->
+    @if (showContinue) {
+    <app-button label="continueGame" variant="filled" (action)="continueGame()"></app-button>
+    }
+
+    <!-- SI EL JUEGO TERMINÓ -->
+    @if (showWinners) {
+
+    <h3>Ganadores:</h3>
+
+    <div class="winners">
+        @for (name of winners; track name) {
+        <div class="winner-card">
+            {{ name }}
+        </div>
+        }
+    </div>
+
+    <app-button label="Volver al menú" variant="filled" (action)="goToMenu()"></app-button>
+
+    }
+
+</div>

@@ -33,3 +33,8 @@
 .cover-card:active {
     cursor: grabbing;
 }
+
+.content {
+    display: flex;
+    justify-content: center;
+}

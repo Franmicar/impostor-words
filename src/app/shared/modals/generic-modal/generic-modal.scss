@@ -1,0 +1,21 @@
+    .modal-container {
+        position: relative;
+        padding: 8px;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+    }
+
+    mat-dialog-content {
+        margin-top: 12px;
+    }
+
+    .header-modal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+    }

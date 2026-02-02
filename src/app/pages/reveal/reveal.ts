@@ -7,10 +7,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { CdkDragEnd, DragDropModule } from '@angular/cdk/drag-drop';
 import { Router } from '@angular/router';
 import { Button } from '../../shared/components/button/button';
+import { TitleComponent } from '../../shared/components/title/title';
+import { MatDialog } from '@angular/material/dialog';
+import { GenericModal, GenericModalData } from '../../shared/modals/generic-modal/generic-modal';
 
 @Component({
   selector: 'app-reveal',
-  imports: [TranslateModule, MatCardModule, MatButtonModule, DragDropModule, Button],
+  imports: [TranslateModule, MatCardModule, MatButtonModule, DragDropModule, Button, TitleComponent],
   templateUrl: './reveal.html',
   styleUrl: './reveal.scss',
   standalone: true
@@ -22,7 +25,8 @@ export class Reveal {
   constructor(
     public gameStateService: GameStateService,
     private configService: GameConfig,
-    private router: Router
+    private router: Router,
+    private dialog: MatDialog
   ) { }
 
   get currentPlayerName() {
@@ -41,12 +45,36 @@ export class Reveal {
 
   play() {
     this.revealed = false;
+    this.gameStateService.update({
+      state: 'choosing'
+    });
+    this.gameStateService.allowNavigationOnce();
     this.router.navigate(['/choice']);
   }
 
   next() {
     this.revealed = false;
     this.gameStateService.nextPlayer();
+  }
+
+  confirmExit(): Promise<boolean> | boolean {
+    if (this.gameStateService.allowExit) {
+      return true;
+    }
+
+    const data: GenericModalData = {
+      title: 'exitModal.title',
+      message: 'exitModal.message',
+      acceptText: 'exitModal.acceptText'
+    };
+
+    const ref = this.dialog.open(GenericModal, {
+      data,
+      disableClose: true,   // no se puede cerrar haciendo click fuera
+      width: '320px'
+    });
+
+    return ref.afterClosed().toPromise();
   }
 
 }

@@ -4,8 +4,10 @@ import { GameConfig } from '../../core/services/game-config';
 import { TranslateModule } from '@ngx-translate/core';
 import { Button } from '../../shared/components/button/button';
 import { Router } from '@angular/router';
-
-type Phase = 'countdown' | 'playing';
+import { GameStateService } from '../../core/services/game-state';
+import { PreventExit } from '../../core/services/prevent-exit-guard';
+import { GenericModal, GenericModalData } from '../../shared/modals/generic-modal/generic-modal';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-round',
@@ -14,7 +16,7 @@ type Phase = 'countdown' | 'playing';
   styleUrl: './round.scss',
   standalone: true
 })
-export class Round implements OnInit, OnDestroy {
+export class Round implements OnInit, OnDestroy, PreventExit {
 
   countdown = signal(3);
   timeLeft = signal(0);
@@ -23,10 +25,17 @@ export class Round implements OnInit, OnDestroy {
 
   private sub?: Subscription;
 
-  constructor(private configService: GameConfig, private router: Router) { }
+  constructor(private configService: GameConfig, private router: Router, private gameState: GameStateService,
+    private dialog: MatDialog) { }
 
   ngOnInit() {
-    this.startCountdown();
+    // Si venimos de una ronda en curso, restauramos el tiempo
+    if (this.gameState.game.time && this.gameState.game.time > 0) {
+      this.timeLeft.set(this.gameState.game.time);
+      this.startRound();
+    } else {
+      this.startCountdown();
+    }
   }
 
   ngOnDestroy() {
@@ -55,9 +64,17 @@ export class Round implements OnInit, OnDestroy {
 
     this.phase.set('playing');
 
+    // 🔥 CLAVE: si ya hay tiempo guardado, NO lo sobreescribimos
+    const savedTime = this.gameState.game.time;
+
     if (duration && duration > 0) {
       this.hasTimer.set(true);
-      this.timeLeft.set(duration * 60);
+
+      // Si hay tiempo guardado, lo usamos; si no, usamos el de configuración
+      if (!savedTime || savedTime <= 0) {
+        this.timeLeft.set(duration * 60);
+      }
+
       this.startTimer();
     }
   }
@@ -80,7 +97,31 @@ export class Round implements OnInit, OnDestroy {
   // IR A VOTACIÓN
   // -----------------------
   goToVoting() {
-    // navegación a pantalla de elegir jugadores
+    this.gameState.update({
+      state: 'voting',
+      time: this.timeLeft()
+    });
+    this.gameState.allowNavigationOnce();
     this.router.navigate(['/vote']);
+  }
+
+  confirmExit(): Promise<boolean> | boolean {
+    if (this.gameState.allowExit) {
+      return true;
+    }
+
+    const data: GenericModalData = {
+      title: 'exitModal.title',
+      message: 'exitModal.message',
+      acceptText: 'exitModal.acceptText'
+    };
+
+    const ref = this.dialog.open(GenericModal, {
+      data,
+      disableClose: true,   // no se puede cerrar haciendo click fuera
+      width: '320px'
+    });
+
+    return ref.afterClosed().toPromise();
   }
 }
