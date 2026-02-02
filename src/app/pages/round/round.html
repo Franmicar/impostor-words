@@ -1,1 +1,22 @@
-<p>round works!</p>
+<div class="round-screen">
+    <!-- CUENTA ATRÁS INICIAL -->
+    @if (phase() === 'countdown') {
+    <h2>{{ 'startingIn' | translate }}</h2>
+    <div class="big-counter">{{ countdown() }}</div>
+    }
+
+    <!-- FASE DE JUEGO -->
+    @if (phase() === 'playing') {
+
+    @if (hasTimer()) {
+    <h2>{{ 'timeLeft' | translate }}</h2>
+    <div class="big-counter">{{ timeLeft() }}</div>
+    } @else {
+    <h2 class="play-text">🎉 {{ 'letsPlay' | translate }} 🎉</h2>
+    }
+
+    <app-button label="discoverImpostor" (action)="goToVoting()" color="primary" variant="filled"
+        size="large"></app-button>
+    }
+
+</div>

@@ -1,0 +1,14 @@
+.mode-card {
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease, transform 0.15s ease;
+    cursor: pointer;
+}
+
+.mode-card:hover {
+    transform: scale(1.02);
+}
+
+.mode-card.selected {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(29, 155, 240, 0.35);
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "category": "food",
+        "img": "images/packages/food.jpg",
+        "words": [
+            "pizza",
+            "burger",
+            "pasta",
+            "sushi",
+            "apple",
+            "banana",
+            "chocolate",
+            "cake",
+            "bread",
+            "salad"
+        ]
+    },
+    {
+        "category": "movies",
+        "img": "images/packages/movies.jpg",
+        "words": [
+            "Titanic",
+            "Inception",
+            "Avatar",
+            "Frozen",
+            "Jaws",
+            "Gladiator",
+            "Rocky",
+            "Matrix",
+            "Up",
+            "Interstellar"
+        ]
+    },
+    {
+        "category": "animals",
+        "img": "images/packages/animals.jpg",
+        "words": [
+            "dog",
+            "cat",
+            "lion",
+            "tiger",
+            "elephant",
+            "giraffe",
+            "monkey",
+            "bear",
+            "zebra",
+            "wolf"
+        ]
+    }
+]

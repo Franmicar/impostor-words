@@ -1,0 +1,27 @@
+<mat-card>
+    <div>
+        @for (item of items; track item.title; let idx = $index, e = $even) {
+        @if (idx > 0) { <mat-divider></mat-divider> }
+        <div class="menu-row">
+            <mat-icon>{{ item.icon }}</mat-icon>
+            <mat-card-title class="title">{{ item.title | translate }}</mat-card-title>
+            @if (item.buttons) {
+            <app-button (action)="add(item)" icon="add" variant="miniFab">
+            </app-button>
+            <mat-card-subtitle class="value">{{ item.amount }}</mat-card-subtitle>
+            <app-button (action)="remove(item)" icon="remove" variant="miniFab">
+            </app-button>
+            } @else if (item.amount) {
+            <mat-card-subtitle class="value">{{ item.amount }}</mat-card-subtitle>
+            }
+            @if (item.info) {
+            <mat-card-subtitle class="value">{{ item.info | translate }}</mat-card-subtitle>
+            }
+            @if (item.settings) {
+            <app-button (action)="settings(item)" icon="chevron_right" variant="icon">
+            </app-button>
+            }
+        </div>
+        }
+    </div>
+</mat-card>

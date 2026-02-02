@@ -1,0 +1,23 @@
+<app-title title="duration"></app-title>
+
+<div class="time-container">
+    <mat-card>
+        <mat-radio-group class="flex flex-col gap-3" [(ngModel)]="selectedMinutes"
+            (change)="onMinutesChange($event.value)">
+            <mat-radio-button [value]="0">
+                {{ 'noTime' | translate }}
+            </mat-radio-button>
+
+            <mat-divider></mat-divider>
+
+            @for (i of minutes; track i) {
+            <mat-radio-button [value]="i">
+                {{ i }} {{ getMinuteLabel(i) | translate }}
+            </mat-radio-button>
+            <mat-divider></mat-divider>
+            }
+        </mat-radio-group>
+    </mat-card>
+
+    <app-button label="save" variant="filled" (action)="save()"></app-button>
+</div>

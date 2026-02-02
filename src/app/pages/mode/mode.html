@@ -1,0 +1,9 @@
+<app-title title="mode.title"></app-title>
+
+<div class="body-container">
+    @for (item of data; track $index) {
+    <app-data-card [data]="item" (clicked)="selectMode($event.title)"
+        [selected]="item.title === selectedMode"></app-data-card>
+    }
+    <app-button label="save" variant="filled" (action)="save()"></app-button>
+</div>

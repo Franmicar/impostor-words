@@ -1,0 +1,26 @@
+{
+    "title": "Impostor",
+    "mode": {
+        "classic": "Classic",
+        "custom": "Custom",
+        "chaos": "Chaos",
+        "mysterious": "Mysterious"
+    },
+    "minute": "Minute",
+    "minutes": "Minutes",
+    "players": "Players",
+    "player": "Player",
+    "impostors": "Impostors",
+    "impostor": "Impostor",
+    "detectives": "Detectives",
+    "detective": "Detective",
+    "hints": "Hints",
+    "hint": "Hint",
+    "packages": "Packages",
+    "duration": "Duration",
+    "selected": "Selected",
+    "gameMode": "Game mode",
+    "none": "None",
+    "first": "First",
+    "all": "All"
+}

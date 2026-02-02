@@ -1,1 +1,10 @@
-<p>home works!</p>
+<div class="body-container">
+
+    <app-title title="title"></app-title>
+
+    <div class="container">
+        <app-card [items]="items" (addAction)="onAdd($event)" (removeAction)="onRemove($event)"></app-card>
+    </div>
+
+    <app-button label="play" variant="filled" (action)="play()"></app-button>
+</div>

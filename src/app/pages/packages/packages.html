@@ -1,0 +1,9 @@
+<app-title title="packages"></app-title>
+
+<div class="packages body-container">
+    @for (pkg of packages$ | async; track $index) {
+    <app-data-card [data]="pkg" [selected]="isSelected(pkg)" (clicked)="togglePackage(pkg)">
+    </app-data-card>
+    }
+    <app-button label="save" variant="filled" (action)="save()" [disabled]="selectedPackages.size === 0"></app-button>
+</div>

@@ -1,0 +1,13 @@
+<mat-card class="mode-card" [class.selected]="selected" (click)="onClick()">
+
+    <mat-card-title>{{ title | translate }}</mat-card-title>
+
+    <mat-card-content>
+        @if (data.img) {
+        <img [src]="data.img" width="200" height="120">
+        }
+        @if (data.text) {
+        <p>{{ data.text | translate }}</p>
+        }
+    </mat-card-content>
+</mat-card>

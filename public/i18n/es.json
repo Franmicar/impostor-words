@@ -1,0 +1,91 @@
+{
+    "title": "Impostor Words",
+    "classic": "Clásico",
+    "custom": "Personalizado",
+    "chaos": "Caos",
+    "mysterious": "Misterioso",
+    "mode": {
+        "classic": "Modo de juego clásico con impostores",
+        "custom": "Modo de juego personalizado a tu gusto",
+        "chaos": "Modo de juego donde no se sabe el número de impostores",
+        "mysterious": "Modo de juego con roles de impostor y detective",
+        "title": "Selecciona un modo de juego"
+    },
+    "hintsText": {
+        "first": "Solo se le dará pista al impostor si él empieza",
+        "all": "Se le dará pista a todos los jugadores",
+        "none": "No se le dará pista a ningún impostor"
+    },
+    "minute": "Minuto",
+    "minutes": "Minutos",
+    "players": "Jugadores",
+    "player": "Jugador",
+    "impostors": "Impostores",
+    "impostor": "Impostor",
+    "detectives": "Detectives",
+    "detective": "Detective",
+    "hints": "Pistas",
+    "hint": "Pista",
+    "packages": "Paquetes",
+    "duration": "Duración",
+    "selected": "Seleccionados",
+    "gameMode": "Modo de juego",
+    "none": "Ninguna",
+    "first": "Primero",
+    "all": "Todos",
+    "save": "Guardar",
+    "play": "Jugar",
+    "noTime": "Sin tiempo",
+    "tapToReveal": "Pulsa para revelar",
+    "nextPlayer": "Siguiente jugador",
+    "swipeUp": "Desliza hacia arriba",
+    "whoStarts": "¿Quién empieza?",
+    "start": "Empezar",
+    "startingIn": "Empezamos en…",
+    "timeLeft": "Tiempo restante",
+    "letsPlay": "¡A jugar!",
+    "discoverImpostor": "Descubrir al impostor",
+    "categories": {
+        "food": "Comida",
+        "movies": "Películas",
+        "animals": "Animales"
+    },
+    "words": {
+        "food": {
+            "pizza": "Pizza",
+            "burger": "Hamburguesa",
+            "pasta": "Pasta",
+            "sushi": "Sushi",
+            "apple": "Manzana",
+            "banana": "Plátano",
+            "chocolate": "Chocolate",
+            "cake": "Tarta",
+            "bread": "Pan",
+            "salad": "Ensalada"
+        },
+        "movies": {
+            "titanic": "Titanic",
+            "inception": "Origen",
+            "avatar": "Avatar",
+            "frozen": "Frozen",
+            "jaws": "Tiburón",
+            "gladiator": "Gladiator",
+            "rocky": "Rocky",
+            "matrix": "Matrix",
+            "up": "Up",
+            "interstellar": "Interstellar"
+        },
+        "animals": {
+            "dog": "Perro",
+            "cat": "Gato",
+            "lion": "León",
+            "tiger": "Tigre",
+            "elephant": "Elefante",
+            "giraffe": "Girafa",
+            "monkey": "Mono",
+            "bear": "Oso",
+            "zebra": "Zebra",
+            "wolf": "Lobo"
+        }
+    }
+}

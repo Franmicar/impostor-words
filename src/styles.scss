@@ -7,14 +7,12 @@
 
 html {
   height: 100%;
-  @include mat.theme((
-    color: (
-      primary: mat.$azure-palette,
-      tertiary: mat.$blue-palette,
-    ),
-    typography: Roboto,
-    density: 0,
-  ));
+  @include mat.theme((color: (primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    ));
 }
 
 body {
@@ -26,12 +24,66 @@ body {
   // Set a default background, font and text colors for the application using
   // Angular Material's system-level CSS variables. Learn more about these
   // variables at https://material.angular.dev/guide/system-variables
-  background-color: var(--mat-sys-surface);
-  color: var(--mat-sys-on-surface);
-  font: var(--mat-sys-body-medium);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
 
   // Reset the user agent margin.
   margin: 0;
   height: 100%;
 }
+
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  /* Fondo general */
+  --bg-main: #0f1419;
+  --bg-card: #16181c;
+  --bg-hover: #1d1f23;
+
+  /* Bordes y separadores */
+  --border-subtle: #2f3336;
+
+  /* Texto */
+  --text-primary: #e7e9ea;
+  --text-secondary: #71767b;
+  --text-muted: #536471;
+
+  /* Azul X */
+  --accent-primary: #1d9bf0;
+  --accent-primary-hover: #1a8cd8;
+
+  /* Estados */
+  --success: #00ba7c;
+  --danger: #f4212e;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+mat-card {
+  background-color: var(--bg-card) !important;
+  color: var(--text-primary);
+  border-radius: 14px;
+  box-shadow: none !important;
+  border: 1px solid var(--border-subtle);
+}
+
+mat-card:hover {
+  background-color: var(--bg-hover);
+}
+
+mat-divider {
+  border-top-color: var(--border-subtle) !important;
+}
+
+.mdc-label {
+  color: var(--text-primary) !important;
+}

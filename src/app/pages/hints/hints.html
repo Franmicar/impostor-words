@@ -1,0 +1,9 @@
+<app-title title="hints"></app-title>
+
+<div class="body-container">
+    @for (item of data; track $index) {
+    <app-data-card (clicked)="selectHint($event.title)" [data]="item"
+        [selected]="item.title === selectedHint"></app-data-card>
+    }
+    <app-button label="save" variant="filled" (action)="save()"></app-button>
+</div>

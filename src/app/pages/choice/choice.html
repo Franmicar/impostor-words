@@ -1,0 +1,17 @@
+<div class="selection-screen">
+
+    <h2>{{ 'whoStarts' | translate }}</h2>
+
+    <div class="roulette-window">
+        <div class="roulette" [class.spinning]="spinning" [style.transform]="transform" (transitionend)="onSpinEnd()">
+            @for (name of rouletteNames; track $index) {
+            <div class="roulette-item">{{ name }}</div>
+            }
+        </div>
+    </div>
+
+    @if (!spinning) {
+    <app-button label="start" variant="filled" (action)="startGame()"></app-button>
+    }
+
+</div>

@@ -1,1 +1,29 @@
-<p>reveal works!</p>
+<mat-card class="h-screen flex flex-col justify-center items-center">
+
+    <h2>{{ currentPlayerName }}</h2>
+
+    <div class="reveal-wrapper">
+
+        <!-- TEXTO REVELADO -->
+        <div class="hidden-word">
+            {{ isImpostor ? 'IMPOSTOR' : ('words.' + gameStateService.game.word | translate) }}
+        </div>
+
+        <!-- CARD DESLIZABLE -->
+        <mat-card cdkDrag cdkDragLockAxis="y" (cdkDragEnded)=" onDragEnd($event)" class="cover-card">
+            <mat-card-content>
+                {{ 'swipeUp' | translate}}
+            </mat-card-content>
+        </mat-card>
+
+    </div>
+
+    @if (revealed) {
+    @if (gameStateService.isLastPlayer()) {
+    <app-button label="play" variant="filled" (action)="play()"></app-button>
+    } @else {
+    <app-button label="nextPlayer" variant="filled" (action)="next()"></app-button>
+    }
+    }
+
+</mat-card>

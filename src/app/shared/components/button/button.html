@@ -1,0 +1,14 @@
+@switch (variant) {
+@case ('icon') {
+<button matIconButton [disabled]="disabled" (click)="onAction()"><mat-icon>{{icon}}</mat-icon></button>
+}
+@case ('miniFab') {
+<button matMiniFab [disabled]="disabled" (click)="onAction()"><mat-icon>{{icon}}</mat-icon></button>
+}
+@case ('fab') {
+<button matFab [disabled]="disabled" (click)="onAction()"><mat-icon>{{icon}}</mat-icon></button>
+}
+@case ('filled') {
+<button matButton="filled" [disabled]="disabled" (click)="onAction()">{{label | translate}}</button>
+}
+}

@@ -1,0 +1,26 @@
+.menu-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border-subtle);
+    height: 30px;
+}
+
+.menu-row:last-child {
+    border-bottom: none;
+}
+
+.menu-row .icon {
+    color: var(--text-secondary);
+}
+
+.menu-row .title {
+    flex: 1;
+    font-size: 20px;
+}
+
+.menu-row .value {
+    color: var(--text-secondary);
+    font-size: 16px;
+}

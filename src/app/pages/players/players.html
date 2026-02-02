@@ -1,0 +1,37 @@
+<app-title title="players"></app-title>
+
+<div class="container" cdkDropList (cdkDropListDropped)="drop($event)">
+
+    @for (control of names.controls; track $index; let idx = $index) {
+
+    <mat-card cdkDrag>
+        <mat-card-content>
+
+            <div class="player">
+
+                <!-- ICONO DRAG -->
+                <mat-icon cdkDragHandle>drag_indicator</mat-icon>
+
+                <mat-form-field>
+                    <input matInput type="text" [formControl]="control">
+                </mat-form-field>
+
+                @if (names.length > 3) {
+                <app-button variant="icon" icon="delete" (action)="removePlayer(idx)">
+                </app-button>
+                }
+
+            </div>
+
+        </mat-card-content>
+    </mat-card>
+
+    }
+
+    <app-button variant="fab" icon="add" (action)="addPlayer()">
+    </app-button>
+
+    <app-button label="save" variant="filled" (action)="save()">
+    </app-button>
+
+</div>
