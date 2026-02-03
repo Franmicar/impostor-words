@@ -4,7 +4,7 @@
         <p class="subtitle">Elige a la persona que crees que es el impostor</p>
     </div>
 
-    <div class="players-grid">
+    <div class="card-grid">
         @for (player of players; track player.position) {
         @if (!player.isDead) {
         <app-data-card [data]="player" (clicked)="selectPlayer(player.position)"

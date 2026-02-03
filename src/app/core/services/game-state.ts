@@ -4,6 +4,10 @@ import { Game } from '../models/game.model';
 import { Player, Role } from '../models/player.model';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { Package } from '../models/package.model';
 
 @Injectable({
   providedIn: 'root',
@@ -16,7 +20,7 @@ export class GameStateService {
 
   allowExit = false;
 
-  constructor(private configService: GameConfig, private router: Router) {
+  constructor(private configService: GameConfig, private router: Router, private http: HttpClient) {
     this.loadOrCreate();
     this.router.events
       .pipe(filter(event => event instanceof NavigationEnd))
@@ -39,6 +43,7 @@ export class GameStateService {
   /** Resetear a valores por defecto */
   reset(): void {
     this._game = new Game();
+    this.currentPlayerIndex = 0;
     this.persist();
   }
 
@@ -65,25 +70,35 @@ export class GameStateService {
     );
   }
 
-
   startGame() {
-    this.update({
-      word: this.pickRandomWord(),
-      state: 'revealing'
+    this.pickRandomWord().subscribe(word => {
+
+      this.update({
+        word,
+        state: 'revealing'
+      });
+
+      this.pickImpostors();
     });
-    this.pickImpostors();
   }
 
-  private getAllSelectedWords(): string[] {
-    return this.configService.config.packages.reduce(
-      (acc, pkg) => {
-        const wordsWithCategory = pkg.words.map(
-          word => `${pkg.category}.${word.toLowerCase()}`
-        );
+  getSelectedPackages(): Observable<Package[]> {
+    return this.http.get<Package[]>('data/packages.json').pipe(
+      map(allPackages =>
+        allPackages.filter(pkg =>
+          this.configService.config.packages.includes(pkg.category)
+        )
+      )
+    );
+  }
 
-        return [...acc, ...wordsWithCategory];
-      },
-      [] as string[]
+  getAllSelectedWords(): Observable<string[]> {
+    return this.getSelectedPackages().pipe(
+      map(pkgs =>
+        pkgs.flatMap(pkg =>
+          pkg.words.map(word => `${pkg.category}.${word}`)
+        )
+      )
     );
   }
 
@@ -95,13 +110,17 @@ export class GameStateService {
     return this.currentPlayerIndex === this.configService.config.players.length - 1;
   }
 
-  private pickRandomWord() {
-    const wordsPool = this.getAllSelectedWords();
-    return wordsPool[Math.floor(Math.random() * wordsPool.length)];
+  private pickRandomWord(): Observable<string> {
+    return this.getAllSelectedWords().pipe(
+      map(words => {
+        const idx = Math.floor(Math.random() * words.length);
+        return words[idx];
+      })
+    );
   }
 
   private pickImpostors(): void {
-    const players = this.configService.config.players;
+    const players = structuredClone(this.configService.config.players).map(p => ({ ...p }));
     const impostorCount = this.configService.config.impostors;
 
     if (impostorCount <= 0 || impostorCount >= players.length) {

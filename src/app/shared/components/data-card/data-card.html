@@ -1,6 +1,6 @@
-<mat-card class="mode-card" [class.selected]="selected" (click)="onClick()">
+<mat-card class="data-card" [class.selected]="selected" (click)="onClick()">
 
-    <mat-card-title>{{ title | translate }}</mat-card-title>
+    <mat-card-title class="title">{{ title | translate }}</mat-card-title>
 
     <mat-card-content>
         @if (data.img) {

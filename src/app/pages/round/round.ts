@@ -101,6 +101,7 @@ export class Round implements OnInit, OnDestroy, PreventExit {
       state: 'voting',
       time: this.timeLeft()
     });
+    console.log(this.gameState.game);
     this.gameState.allowNavigationOnce();
     this.router.navigate(['/vote']);
   }

@@ -1,4 +1,3 @@
-import { Package } from "./package.model";
 import { Player } from "./player.model";
 
 export type ModeType = 'classic' | 'mysterious' | 'chaos' | 'custom';
@@ -8,7 +7,7 @@ export class Configuration {
     mode: ModeType = 'classic';
     impostors: number = 1;
     hints: HintType = 'none';
-    packages: Package[] = [];
+    packages: string[] = ['food', 'animals', 'basic'];
     duration: number = 5;
     maxImpostors?: number;
     minImpostors?: number = 1;

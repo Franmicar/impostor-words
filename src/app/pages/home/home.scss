@@ -3,6 +3,9 @@
     flex-direction: column;
     gap: 20px;
     margin: 0 auto;
-    width: 800px;
     text-align: start;
+
+    max-width: 800px;
+    width: min(90%, 800px);
+    padding: 0 16px;
 }
