@@ -1,0 +1,32 @@
+{
+    "globalHints": [
+        {
+            "type": "category",
+            "text": "Pertenece a la categoría: {{category}}"
+        },
+        {
+            "type": "length",
+            "text": "La palabra tiene {{length}} letras"
+        },
+        {
+            "type": "startsWith",
+            "text": "Empieza por la letra '{{firstLetter}}'"
+        },
+        {
+            "type": "endsWith",
+            "text": "Termina por la letra '{{lastLetter}}'"
+        },
+        {
+            "type": "vowels",
+            "text": "Contiene {{vowels}} vocales"
+        },
+        {
+            "type": "syllables",
+            "text": "Tiene aproximadamente {{syllables}} sílabas"
+        },
+        {
+            "type": "wordType",
+            "text": "Es un sustantivo"
+        }
+    ]
+}

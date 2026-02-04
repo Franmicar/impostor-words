@@ -1,0 +1,204 @@
+{
+    "animals": {
+        "dog": [
+            "fiel",
+            "leal",
+            "ladrar"
+        ],
+        "cat": [
+            "araña",
+            "bigotes",
+            "ronroneo"
+        ],
+        "lion": [
+            "sabana",
+            "melena",
+            "rey"
+        ],
+        "tiger": [
+            "rayas",
+            "selva",
+            "felino"
+        ],
+        "elephant": [
+            "trompa",
+            "gigante",
+            "africa"
+        ],
+        "giraffe": [
+            "cuello",
+            "alto",
+            "sabana"
+        ],
+        "monkey": [
+            "árbol",
+            "banana",
+            "saltar"
+        ],
+        "bear": [
+            "peludo",
+            "bosque",
+            "miel"
+        ],
+        "zebra": [
+            "rayas",
+            "africa",
+            "caballo"
+        ],
+        "wolf": [
+            "manada",
+            "noche",
+            "aullido"
+        ],
+        "shark": [
+            "mar",
+            "dientes",
+            "nadador"
+        ],
+        "dolphin": [
+            "mar",
+            "inteligente",
+            "salto"
+        ],
+        "whale": [
+            "océano",
+            "gigante",
+            "chorro"
+        ],
+        "octopus": [
+            "tentáculos",
+            "mar",
+            "tinta"
+        ],
+        "penguin": [
+            "hielo",
+            "antártida",
+            "pájaro"
+        ],
+        "eagle": [
+            "cielo",
+            "vista",
+            "vuelo"
+        ],
+        "parrot": [
+            "color",
+            "hablar",
+            "jaula"
+        ],
+        "owl": [
+            "noche",
+            "silencio",
+            "vista"
+        ],
+        "snake": [
+            "reptil",
+            "veneno",
+            "serpiente"
+        ],
+        "crocodile": [
+            "río",
+            "dientes",
+            "reptil"
+        ],
+        "kangaroo": [
+            "bolsa",
+            "saltar",
+            "australia"
+        ],
+        "koala": [
+            "eucalipto",
+            "australia",
+            "oso"
+        ],
+        "panda": [
+            "bambú",
+            "china",
+            "blanco"
+        ],
+        "rabbit": [
+            "orejas",
+            "zanahoria",
+            "salto"
+        ],
+        "hamster": [
+            "rueda",
+            "pequeño",
+            "jaula"
+        ],
+        "horse": [
+            "deporte",
+            "apuestas",
+            "granja"
+        ],
+        "cow": [
+            "metano",
+            "leche",
+            "granja"
+        ],
+        "sheep": [
+            "lana",
+            "campo",
+            "rebaño"
+        ],
+        "goat": [
+            "montaña",
+            "leche",
+            "barba"
+        ],
+        "deer": [
+            "bosque",
+            "cuernos",
+            "herbívoro"
+        ],
+        "fox": [
+            "astuto",
+            "bosque",
+            "cola"
+        ],
+        "bat": [
+            "vuelo",
+            "noche",
+            "cueva"
+        ],
+        "ant": [
+            "insecto",
+            "colonia",
+            "trabajo"
+        ],
+        "bee": [
+            "amarillo",
+            "miel",
+            "colmena"
+        ],
+        "butterfly": [
+            "hermoso",
+            "alas",
+            "flor"
+        ],
+        "spider": [
+            "insecto",
+            "patas",
+            "veneno"
+        ],
+        "crab": [
+            "mar",
+            "pinzas",
+            "caminar"
+        ],
+        "turtle": [
+            "mar",
+            "caparazón",
+            "lento"
+        ],
+        "frog": [
+            "lengua",
+            "salto",
+            "charco"
+        ],
+        "lizard": [
+            "cola",
+            "reptil",
+            "sol"
+        ]
+    }
+}

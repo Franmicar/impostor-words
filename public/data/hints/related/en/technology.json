@@ -1,0 +1,204 @@
+{
+    "technology": {
+        "internet": [
+            "wifi",
+            "browse",
+            "network"
+        ],
+        "wifi": [
+            "router",
+            "signal",
+            "connection"
+        ],
+        "router": [
+            "internet",
+            "signal",
+            "network"
+        ],
+        "server": [
+            "data",
+            "cloud",
+            "network"
+        ],
+        "cloud": [
+            "data",
+            "server",
+            "internet"
+        ],
+        "database": [
+            "data",
+            "tables",
+            "sql"
+        ],
+        "app": [
+            "mobile",
+            "download",
+            "screen"
+        ],
+        "website": [
+            "browser",
+            "page",
+            "url"
+        ],
+        "algorithm": [
+            "code",
+            "logic",
+            "steps"
+        ],
+        "code": [
+            "program",
+            "language",
+            "software"
+        ],
+        "python": [
+            "language",
+            "snake",
+            "scripts"
+        ],
+        "javascript": [
+            "web",
+            "browser",
+            "frontend"
+        ],
+        "angular": [
+            "typescript",
+            "web",
+            "framework"
+        ],
+        "react": [
+            "components",
+            "frontend",
+            "hooks"
+        ],
+        "node": [
+            "server",
+            "javascript",
+            "backend"
+        ],
+        "api": [
+            "data",
+            "server",
+            "rest"
+        ],
+        "git": [
+            "versions",
+            "repo",
+            "commit"
+        ],
+        "github": [
+            "repos",
+            "code",
+            "collaborate"
+        ],
+        "vercel": [
+            "deploy",
+            "web",
+            "cloud"
+        ],
+        "docker": [
+            "containers",
+            "image",
+            "virtual"
+        ],
+        "robot": [
+            "automation",
+            "metal",
+            "ai"
+        ],
+        "drone": [
+            "flight",
+            "camera",
+            "control"
+        ],
+        "ai": [
+            "intelligence",
+            "data",
+            "model"
+        ],
+        "chatgpt": [
+            "ai",
+            "text",
+            "conversation"
+        ],
+        "smartphone": [
+            "screen",
+            "apps",
+            "camera"
+        ],
+        "tablet": [
+            "screen",
+            "touch",
+            "portable"
+        ],
+        "laptop": [
+            "keyboard",
+            "portable",
+            "battery"
+        ],
+        "desktop": [
+            "pc",
+            "monitor",
+            "keyboard"
+        ],
+        "keyboard": [
+            "keys",
+            "type",
+            "input"
+        ],
+        "mouse": [
+            "click",
+            "cursor",
+            "mouse"
+        ],
+        "screen": [
+            "screen",
+            "brightness",
+            "image"
+        ],
+        "camera": [
+            "photo",
+            "lens",
+            "video"
+        ],
+        "battery": [
+            "energy",
+            "charge",
+            "mobile"
+        ],
+        "chip": [
+            "silicon",
+            "processor",
+            "electronics"
+        ],
+        "processor": [
+            "cpu",
+            "cores",
+            "speed"
+        ],
+        "vr": [
+            "goggles",
+            "reality",
+            "immersion"
+        ],
+        "ar": [
+            "reality",
+            "augmented",
+            "mobile"
+        ],
+        "metaverse": [
+            "virtual",
+            "avatar",
+            "world"
+        ],
+        "bitcoin": [
+            "crypto",
+            "blockchain",
+            "mine"
+        ],
+        "blockchain": [
+            "chain",
+            "blocks",
+            "crypto"
+        ]
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "travel": {
+        "paris": [
+            "tower",
+            "france",
+            "love"
+        ],
+        "london": [
+            "bigben",
+            "uk",
+            "fog"
+        ],
+        "newyork": [
+            "skyscrapers",
+            "city",
+            "times"
+        ],
+        "tokyo": [
+            "neon",
+            "train",
+            "technology"
+        ],
+        "rome": [
+            "colosseum",
+            "history",
+            "italy"
+        ],
+        "barcelona": [
+            "sagrada",
+            "beach",
+            "gaudi"
+        ],
+        "madrid": [
+            "puerta",
+            "sun",
+            "museum"
+        ],
+        "berlin": [
+            "wall",
+            "history",
+            "bike"
+        ],
+        "amsterdam": [
+            "canals",
+            "bikes",
+            "tulips"
+        ],
+        "dubai": [
+            "skyscrapers",
+            "luxury",
+            "desert"
+        ],
+        "airport": [
+            "plane",
+            "luggage",
+            "checkin"
+        ],
+        "passport": [
+            "travel",
+            "stamp",
+            "document"
+        ],
+        "ticket": [
+            "flight",
+            "booking",
+            "seat"
+        ],
+        "hotel": [
+            "room",
+            "keys",
+            "reception"
+        ],
+        "beach": [
+            "sand",
+            "waves",
+            "sun"
+        ],
+        "island": [
+            "palms",
+            "sea",
+            "sand"
+        ],
+        "mountain": [
+            "summit",
+            "snow",
+            "trail"
+        ],
+        "desert": [
+            "sand",
+            "sun",
+            "camels"
+        ],
+        "train": [
+            "tracks",
+            "station",
+            "fast"
+        ],
+        "subway": [
+            "metro",
+            "tunnel",
+            "platform"
+        ],
+        "roadtrip": [
+            "car",
+            "road",
+            "journey"
+        ],
+        "camping": [
+            "tent",
+            "fire",
+            "nature"
+        ],
+        "backpack": [
+            "backpack",
+            "trail",
+            "journey"
+        ],
+        "map": [
+            "routes",
+            "directions",
+            "paper"
+        ],
+        "compass": [
+            "north",
+            "orientation",
+            "needle"
+        ],
+        "camera": [
+            "photo",
+            "memory",
+            "trip"
+        ],
+        "souvenir": [
+            "memory",
+            "shop",
+            "gift"
+        ],
+        "museum": [
+            "art",
+            "history",
+            "exhibition"
+        ],
+        "monument": [
+            "statue",
+            "history",
+            "tourism"
+        ],
+        "cruise": [
+            "ship",
+            "sea",
+            "vacation"
+        ],
+        "plane": [
+            "flight",
+            "clouds",
+            "pilot"
+        ],
+        "helicopter": [
+            "propeller",
+            "air",
+            "rescue"
+        ],
+        "boat": [
+            "sea",
+            "oar",
+            "harbor"
+        ],
+        "kayak": [
+            "paddle",
+            "water",
+            "river"
+        ],
+        "scooter": [
+            "wheels",
+            "city",
+            "electric"
+        ],
+        "bicycle": [
+            "pedals",
+            "wheel",
+            "lane"
+        ],
+        "taxi": [
+            "car",
+            "city",
+            "driver"
+        ],
+        "bus": [
+            "stop",
+            "seat",
+            "route"
+        ],
+        "hostel": [
+            "backpackers",
+            "cheap",
+            "beds"
+        ],
+        "airbnb": [
+            "rental",
+            "house",
+            "trip"
+        ]
+    }
+}

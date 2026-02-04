@@ -20,15 +20,15 @@ export class Hints implements OnInit {
   data: Data[] = [
     {
       title: "first",
-      text: "hintsText.first",
+      description: "hintsText.first",
     },
     {
       title: "all",
-      text: "hintsText.all",
+      description: "hintsText.all",
     },
     {
       title: "none",
-      text: "hintsText.none",
+      description: "hintsText.none",
     },
   ];
 

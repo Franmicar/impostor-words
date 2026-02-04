@@ -1,0 +1,204 @@
+{
+    "technology": {
+        "internet": [
+            "wifi",
+            "navegar",
+            "red"
+        ],
+        "wifi": [
+            "router",
+            "señal",
+            "conexión"
+        ],
+        "router": [
+            "internet",
+            "señal",
+            "red"
+        ],
+        "server": [
+            "datos",
+            "nube",
+            "red"
+        ],
+        "cloud": [
+            "datos",
+            "servidor",
+            "internet"
+        ],
+        "database": [
+            "datos",
+            "tablas",
+            "sql"
+        ],
+        "app": [
+            "móvil",
+            "descargar",
+            "pantalla"
+        ],
+        "website": [
+            "navegador",
+            "página",
+            "url"
+        ],
+        "algorithm": [
+            "código",
+            "lógica",
+            "pasos"
+        ],
+        "code": [
+            "programar",
+            "lenguaje",
+            "software"
+        ],
+        "python": [
+            "lenguaje",
+            "serpiente",
+            "scripts"
+        ],
+        "javascript": [
+            "web",
+            "navegador",
+            "frontend"
+        ],
+        "angular": [
+            "typescript",
+            "web",
+            "framework"
+        ],
+        "react": [
+            "componentes",
+            "frontend",
+            "hooks"
+        ],
+        "node": [
+            "servidor",
+            "javascript",
+            "backend"
+        ],
+        "api": [
+            "datos",
+            "servidor",
+            "rest"
+        ],
+        "git": [
+            "versiones",
+            "repositorio",
+            "commit"
+        ],
+        "github": [
+            "repos",
+            "codigo",
+            "colaborar"
+        ],
+        "vercel": [
+            "deploy",
+            "web",
+            "cloud"
+        ],
+        "docker": [
+            "contenedores",
+            "imagen",
+            "virtual"
+        ],
+        "robot": [
+            "automatización",
+            "metal",
+            "ia"
+        ],
+        "drone": [
+            "vuelo",
+            "cámara",
+            "control"
+        ],
+        "ai": [
+            "inteligencia",
+            "datos",
+            "modelo"
+        ],
+        "chatgpt": [
+            "ia",
+            "texto",
+            "conversación"
+        ],
+        "smartphone": [
+            "pantalla",
+            "apps",
+            "cámara"
+        ],
+        "tablet": [
+            "pantalla",
+            "táctil",
+            "portátil"
+        ],
+        "laptop": [
+            "teclado",
+            "portátil",
+            "batería"
+        ],
+        "desktop": [
+            "pc",
+            "monitor",
+            "teclado"
+        ],
+        "keyboard": [
+            "teclas",
+            "escribir",
+            "input"
+        ],
+        "mouse": [
+            "clic",
+            "cursor",
+            "ratón"
+        ],
+        "screen": [
+            "pantalla",
+            "brillo",
+            "imagen"
+        ],
+        "camera": [
+            "foto",
+            "lente",
+            "video"
+        ],
+        "battery": [
+            "energía",
+            "carga",
+            "móvil"
+        ],
+        "chip": [
+            "silicio",
+            "procesador",
+            "electrónica"
+        ],
+        "processor": [
+            "cpu",
+            "núcleos",
+            "velocidad"
+        ],
+        "vr": [
+            "gafas",
+            "realidad",
+            "inmersión"
+        ],
+        "ar": [
+            "realidad",
+            "aumentada",
+            "móvil"
+        ],
+        "metaverse": [
+            "virtual",
+            "avatar",
+            "mundo"
+        ],
+        "bitcoin": [
+            "cripto",
+            "blockchain",
+            "minar"
+        ],
+        "blockchain": [
+            "cadena",
+            "bloques",
+            "cripto"
+        ]
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "sports": {
+        "football": [
+            "balón",
+            "gol",
+            "equipo"
+        ],
+        "basketball": [
+            "canasta",
+            "pelota",
+            "pista"
+        ],
+        "tennis": [
+            "raqueta",
+            "red",
+            "pelota"
+        ],
+        "volleyball": [
+            "red",
+            "arena",
+            "saque"
+        ],
+        "baseball": [
+            "bate",
+            "guante",
+            "campo"
+        ],
+        "rugby": [
+            "balón",
+            "placaje",
+            "equipo"
+        ],
+        "hockey": [
+            "puck",
+            "pista",
+            "stick"
+        ],
+        "golf": [
+            "palo",
+            "bola",
+            "green"
+        ],
+        "boxing": [
+            "guantes",
+            "ring",
+            "golpe"
+        ],
+        "karate": [
+            "cinturón",
+            "golpe",
+            "dojo"
+        ],
+        "judo": [
+            "agarre",
+            "tatami",
+            "lucha"
+        ],
+        "swimming": [
+            "agua",
+            "piscina",
+            "nadar"
+        ],
+        "surfing": [
+            "ola",
+            "tabla",
+            "mar"
+        ],
+        "skate": [
+            "tabla",
+            "ruedas",
+            "rampa"
+        ],
+        "snowboard": [
+            "nieve",
+            "tabla",
+            "montaña"
+        ],
+        "ski": [
+            "nieve",
+            "montaña",
+            "bastones"
+        ],
+        "cycling": [
+            "bicicleta",
+            "rueda",
+            "carrera"
+        ],
+        "running": [
+            "correr",
+            "zapatillas",
+            "maratón"
+        ],
+        "marathon": [
+            "carrera",
+            "larga",
+            "meta"
+        ],
+        "triathlon": [
+            "nadar",
+            "correr",
+            "bicicleta"
+        ],
+        "gymnastics": [
+            "flexible",
+            "suelo",
+            "salto"
+        ],
+        "archery": [
+            "arco",
+            "flecha",
+            "diana"
+        ],
+        "fencing": [
+            "espada",
+            "máscara",
+            "duelo"
+        ],
+        "wrestling": [
+            "lucha",
+            "ring",
+            "agarre"
+        ],
+        "weightlifting": [
+            "pesas",
+            "fuerza",
+            "barra"
+        ],
+        "crossfit": [
+            "entreno",
+            "fuerza",
+            "funcional"
+        ],
+        "parkour": [
+            "saltos",
+            "urbano",
+            "agilidad"
+        ],
+        "climbing": [
+            "pared",
+            "agarre",
+            "cuerda"
+        ],
+        "soccer": [
+            "fútbol",
+            "gol",
+            "estadio"
+        ],
+        "handball": [
+            "balón",
+            "portería",
+            "equipo"
+        ],
+        "badminton": [
+            "volante",
+            "raqueta",
+            "red"
+        ],
+        "tabletennis": [
+            "pingpong",
+            "raqueta",
+            "mesa"
+        ],
+        "cricket": [
+            "bate",
+            "pelota",
+            "campo"
+        ],
+        "polo": [
+            "caballo",
+            "mazo",
+            "gol"
+        ],
+        "rowing": [
+            "remo",
+            "agua",
+            "equipo"
+        ],
+        "kayak": [
+            "remo",
+            "agua",
+            "canoa"
+        ],
+        "diving": [
+            "agua",
+            "trampolín",
+            "salto"
+        ],
+        "yoga": [
+            "postura",
+            "respiración",
+            "calma"
+        ],
+        "pilates": [
+            "core",
+            "colchoneta",
+            "control"
+        ]
+    }
+}

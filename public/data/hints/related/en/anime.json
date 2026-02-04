@@ -1,0 +1,199 @@
+{
+    "anime": {
+        "naruto": [
+            "ninja",
+            "village",
+            "chakra"
+        ],
+        "sakura": [
+            "flower",
+            "pink",
+            "spring"
+        ],
+        "sasuke": [
+            "revenge",
+            "sharingan",
+            "sword"
+        ],
+        "goku": [
+            "saiyan",
+            "kamehameha",
+            "cloud"
+        ],
+        "vegeta": [
+            "pride",
+            "saiyan",
+            "prince"
+        ],
+        "luffy": [
+            "hat",
+            "rubber",
+            "pirate"
+        ],
+        "zoro": [
+            "swords",
+            "samurai",
+            "green"
+        ],
+        "eren": [
+            "titan",
+            "wall",
+            "revenge"
+        ],
+        "mikasa": [
+            "scarf",
+            "swords",
+            "soldier"
+        ],
+        "levi": [
+            "clean",
+            "squad",
+            "blades"
+        ],
+        "tanjiro": [
+            "demon",
+            "katana",
+            "family"
+        ],
+        "nezuko": [
+            "demon",
+            "bamboo",
+            "box"
+        ],
+        "zenitsu": [
+            "lightning",
+            "fear",
+            "katana"
+        ],
+        "inosuke": [
+            "boar",
+            "swords",
+            "strength"
+        ],
+        "light": [
+            "notebook",
+            "justice",
+            "shinigami"
+        ],
+        "l": [
+            "detective",
+            "sweets",
+            "genius"
+        ],
+        "rem": [
+            "demon",
+            "loyalty",
+            "chain"
+        ],
+        "nami": [
+            "weather",
+            "money",
+            "ship"
+        ],
+        "sanji": [
+            "chef",
+            "cigarette",
+            "legs"
+        ],
+        "chopper": [
+            "reindeer",
+            "medicine",
+            "hat"
+        ],
+        "totoro": [
+            "forest",
+            "umbrella",
+            "cat"
+        ],
+        "spiritedaway": [
+            "spirits",
+            "bathhouse",
+            "dragon"
+        ],
+        "pikachu": [
+            "electric",
+            "yellow",
+            "mouse"
+        ],
+        "ash": [
+            "pokemon",
+            "cap",
+            "trainer"
+        ],
+        "sailormoon": [
+            "moon",
+            "magic",
+            "uniform"
+        ],
+        "saitama": [
+            "bald",
+            "punch",
+            "hero"
+        ],
+        "genos": [
+            "cyborg",
+            "fire",
+            "disciple"
+        ],
+        "itachi": [
+            "akatsuki",
+            "sharingan",
+            "brother"
+        ],
+        "madara": [
+            "war",
+            "clan",
+            "eye"
+        ],
+        "hinata": [
+            "shy",
+            "byakugan",
+            "love"
+        ],
+        "kakashi": [
+            "mask",
+            "sharingan",
+            "ninja"
+        ],
+        "bakugo": [
+            "explosion",
+            "pride",
+            "hero"
+        ],
+        "midoriya": [
+            "notebook",
+            "hero",
+            "effort"
+        ],
+        "todoroki": [
+            "fire",
+            "ice",
+            "half"
+        ],
+        "kurama": [
+            "fox",
+            "chakra",
+            "demon"
+        ],
+        "yusuke": [
+            "spirit",
+            "fights",
+            "school"
+        ],
+        "gintoki": [
+            "sword",
+            "lazy",
+            "comedy"
+        ],
+        "asuna": [
+            "sword",
+            "world",
+            "virtual"
+        ],
+        "kirito": [
+            "sword",
+            "mmo",
+            "protagonist"
+        ]
+    }
+}

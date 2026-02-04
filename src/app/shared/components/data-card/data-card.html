@@ -4,12 +4,12 @@
 
     <mat-card-content>
         @if (data.img) {
-        <img [src]="data.img" width="200" height="120">
+        <img [src]="data.img" width="200" height="120" loading="lazy" sizes="200px" alt="">
         } @else if (dataIsPlayer) {
-        <img src="images/unknown.jpg" width="200" height="120">
+        <img src="images/unknown.jpg" width="200" height="120" loading="lazy" sizes="200px" alt="">
         }
         @if (hasText(data)) {
-        <p>{{ data.text | translate }}</p>
+        <p>{{ data.description | translate }}</p>
         }
 
     </mat-card-content>

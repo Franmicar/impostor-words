@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "food": {
+            "category": "Comida",
+            "description": "Alimentos y platos de todo el mundo"
+        },
+        "movies": {
+            "category": "Películas",
+            "description": "Títulos y referencias del cine"
+        },
+        "animals": {
+            "category": "Animales",
+            "description": "Fauna de distintos ecosistemas"
+        },
+        "basic": {
+            "category": "Básico",
+            "description": "Palabras cotidianas y objetos comunes"
+        },
+        "sports": {
+            "category": "Deporte",
+            "description": "Disciplinas y conceptos deportivos"
+        },
+        "anime": {
+            "category": "Anime y Manga",
+            "description": "Personajes y referencias del anime"
+        },
+        "videogames": {
+            "category": "Videojuegos",
+            "description": "Personajes y mundos de videojuegos"
+        },
+        "travel": {
+            "category": "Viajes",
+            "description": "Lugares y experiencias de viaje"
+        },
+        "music": {
+            "category": "Música",
+            "description": "Instrumentos, géneros y cultura musical"
+        },
+        "technology": {
+            "category": "Tecnología",
+            "description": "Conceptos digitales, programación y dispositivos"
+        }
+    }
+}

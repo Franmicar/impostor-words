@@ -1,0 +1,204 @@
+{
+    "music": {
+        "guitar": [
+            "cuerdas",
+            "rock",
+            "acorde"
+        ],
+        "piano": [
+            "teclas",
+            "clásica",
+            "melodía"
+        ],
+        "drums": [
+            "ritmo",
+            "baquetas",
+            "batería"
+        ],
+        "violin": [
+            "arco",
+            "orquesta",
+            "clásica"
+        ],
+        "trumpet": [
+            "metal",
+            "soplar",
+            "jazz"
+        ],
+        "saxophone": [
+            "jazz",
+            "metal",
+            "curvo"
+        ],
+        "flute": [
+            "madera",
+            "soplar",
+            "melodía"
+        ],
+        "microphone": [
+            "voz",
+            "concierto",
+            "cantar"
+        ],
+        "headphones": [
+            "sonido",
+            "música",
+            "aislar"
+        ],
+        "speaker": [
+            "altavoz",
+            "volumen",
+            "sonido"
+        ],
+        "rock": [
+            "guitarra",
+            "banda",
+            "concierto"
+        ],
+        "pop": [
+            "radio",
+            "pegadizo",
+            "bailar"
+        ],
+        "jazz": [
+            "improvisar",
+            "saxofón",
+            "club"
+        ],
+        "hiphop": [
+            "rap",
+            "ritmo",
+            "calle"
+        ],
+        "reggaeton": [
+            "baile",
+            "ritmo",
+            "latino"
+        ],
+        "rap": [
+            "rimas",
+            "micrófono",
+            "batalla"
+        ],
+        "classical": [
+            "orquesta",
+            "sinfonía",
+            "piano"
+        ],
+        "opera": [
+            "teatro",
+            "cantar",
+            "orquesta"
+        ],
+        "electronic": [
+            "sintetizador",
+            "dj",
+            "beats"
+        ],
+        "house": [
+            "club",
+            "dj",
+            "baile"
+        ],
+        "dj": [
+            "mezclar",
+            "fiesta",
+            "turntables"
+        ],
+        "concert": [
+            "escenario",
+            "luces",
+            "multitud"
+        ],
+        "festival": [
+            "escenario",
+            "carpas",
+            "música"
+        ],
+        "band": [
+            "grupo",
+            "instrumentos",
+            "vocalista"
+        ],
+        "orchestra": [
+            "violines",
+            "director",
+            "clásica"
+        ],
+        "choir": [
+            "coros",
+            "iglesia",
+            "voces"
+        ],
+        "melody": [
+            "canción",
+            "armonía",
+            "sonido"
+        ],
+        "rhythm": [
+            "compás",
+            "tiempo",
+            "beat"
+        ],
+        "beat": [
+            "ritmo",
+            "bombo",
+            "base"
+        ],
+        "lyrics": [
+            "letra",
+            "canción",
+            "rimas"
+        ],
+        "album": [
+            "disco",
+            "portada",
+            "canciones"
+        ],
+        "playlist": [
+            "canciones",
+            "orden",
+            "spotify"
+        ],
+        "spotify": [
+            "streaming",
+            "música",
+            "app"
+        ],
+        "tiktok": [
+            "videos",
+            "baile",
+            "tendencia"
+        ],
+        "karaoke": [
+            "cantar",
+            "letras",
+            "micrófono"
+        ],
+        "studio": [
+            "grabación",
+            "micrófonos",
+            "cabina"
+        ],
+        "mixer": [
+            "mezclar",
+            "sonido",
+            "canales"
+        ],
+        "synth": [
+            "electrónico",
+            "teclas",
+            "sonido"
+        ],
+        "bass": [
+            "grave",
+            "ritmo",
+            "bajo"
+        ],
+        "ukulele": [
+            "cuerdas",
+            "hawaiano",
+            "pequeño"
+        ]
+    }
+}

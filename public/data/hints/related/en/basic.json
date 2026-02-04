@@ -1,0 +1,204 @@
+{
+    "basic": {
+        "house": [
+            "home",
+            "roof",
+            "family"
+        ],
+        "door": [
+            "entrance",
+            "close",
+            "key"
+        ],
+        "window": [
+            "glass",
+            "view",
+            "light"
+        ],
+        "table": [
+            "wood",
+            "eat",
+            "table"
+        ],
+        "chair": [
+            "sit",
+            "legs",
+            "back"
+        ],
+        "phone": [
+            "call",
+            "screen",
+            "mobile"
+        ],
+        "computer": [
+            "keyboard",
+            "screen",
+            "mouse"
+        ],
+        "book": [
+            "read",
+            "pages",
+            "library"
+        ],
+        "pen": [
+            "ink",
+            "write",
+            "paper"
+        ],
+        "notebook": [
+            "notes",
+            "class",
+            "notebook"
+        ],
+        "school": [
+            "class",
+            "teacher",
+            "classroom"
+        ],
+        "office": [
+            "work",
+            "desk",
+            "meeting"
+        ],
+        "street": [
+            "asphalt",
+            "cars",
+            "sidewalk"
+        ],
+        "park": [
+            "trees",
+            "bench",
+            "grass"
+        ],
+        "beach": [
+            "sand",
+            "sea",
+            "waves"
+        ],
+        "mountain": [
+            "summit",
+            "snow",
+            "trail"
+        ],
+        "river": [
+            "water",
+            "current",
+            "bridge"
+        ],
+        "city": [
+            "buildings",
+            "traffic",
+            "people"
+        ],
+        "shop": [
+            "store",
+            "buy",
+            "sell"
+        ],
+        "market": [
+            "stalls",
+            "fruit",
+            "price"
+        ],
+        "food": [
+            "food",
+            "plate",
+            "hunger"
+        ],
+        "water": [
+            "drink",
+            "liquid",
+            "transparent"
+        ],
+        "coffee": [
+            "caffeine",
+            "cup",
+            "breakfast"
+        ],
+        "tea": [
+            "infusion",
+            "cup",
+            "herb"
+        ],
+        "bread": [
+            "oven",
+            "flour",
+            "breakfast"
+        ],
+        "milk": [
+            "cow",
+            "white",
+            "glass"
+        ],
+        "car": [
+            "wheels",
+            "engine",
+            "drive"
+        ],
+        "bus": [
+            "stop",
+            "driver",
+            "transport"
+        ],
+        "train": [
+            "tracks",
+            "station",
+            "fast"
+        ],
+        "bike": [
+            "pedals",
+            "wheel",
+            "lane"
+        ],
+        "friend": [
+            "friendship",
+            "trust",
+            "support"
+        ],
+        "family": [
+            "home",
+            "love",
+            "unity"
+        ],
+        "teacher": [
+            "class",
+            "board",
+            "student"
+        ],
+        "doctor": [
+            "hospital",
+            "health",
+            "clinic"
+        ],
+        "music": [
+            "sound",
+            "rhythm",
+            "song"
+        ],
+        "movie": [
+            "cinema",
+            "screen",
+            "film"
+        ],
+        "game": [
+            "play",
+            "rules",
+            "fun"
+        ],
+        "party": [
+            "party",
+            "dance",
+            "friends"
+        ],
+        "holiday": [
+            "vacation",
+            "trip",
+            "rest"
+        ],
+        "work": [
+            "office",
+            "task",
+            "salary"
+        ]
+    }
+}

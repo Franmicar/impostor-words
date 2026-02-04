@@ -1,0 +1,204 @@
+{
+    "movies": {
+        "titanic": [
+            "ship",
+            "ice",
+            "love"
+        ],
+        "inception": [
+            "dream",
+            "mind",
+            "maze"
+        ],
+        "avatar": [
+            "blue",
+            "jungle",
+            "alien"
+        ],
+        "frozen": [
+            "ice",
+            "snow",
+            "princess"
+        ],
+        "jaws": [
+            "shark",
+            "sea",
+            "beach"
+        ],
+        "gladiator": [
+            "arena",
+            "rome",
+            "battle"
+        ],
+        "rocky": [
+            "boxing",
+            "ring",
+            "training"
+        ],
+        "matrix": [
+            "reality",
+            "computer",
+            "pill"
+        ],
+        "up": [
+            "balloons",
+            "house",
+            "adventure"
+        ],
+        "interstellar": [
+            "space",
+            "time",
+            "nasa"
+        ],
+        "batman": [
+            "city",
+            "bat",
+            "villain"
+        ],
+        "joker": [
+            "clown",
+            "madness",
+            "chaos"
+        ],
+        "spiderman": [
+            "spider",
+            "building",
+            "web"
+        ],
+        "starwars": [
+            "ship",
+            "saber",
+            "galaxy"
+        ],
+        "harrypotter": [
+            "magic",
+            "wand",
+            "school"
+        ],
+        "toystory": [
+            "toys",
+            "cowboy",
+            "kid"
+        ],
+        "coco": [
+            "family",
+            "music",
+            "mexico"
+        ],
+        "encanto": [
+            "family",
+            "magic",
+            "colombia"
+        ],
+        "dune": [
+            "desert",
+            "sand",
+            "spice"
+        ],
+        "bladerunner": [
+            "android",
+            "city",
+            "future"
+        ],
+        "jurassicpark": [
+            "dinosaur",
+            "island",
+            "scientist"
+        ],
+        "godfather": [
+            "mafia",
+            "family",
+            "italy"
+        ],
+        "terminator": [
+            "robot",
+            "future",
+            "machine"
+        ],
+        "predator": [
+            "alien",
+            "jungle",
+            "hunt"
+        ],
+        "alien": [
+            "space",
+            "monster",
+            "ship"
+        ],
+        "shrek": [
+            "ogre",
+            "swamp",
+            "dragon"
+        ],
+        "madagascar": [
+            "zoo",
+            "island",
+            "animals"
+        ],
+        "moana": [
+            "ocean",
+            "island",
+            "journey"
+        ],
+        "lionking": [
+            "savanna",
+            "lion",
+            "family"
+        ],
+        "aladdin": [
+            "lamp",
+            "genie",
+            "desert"
+        ],
+        "topgun": [
+            "plane",
+            "pilot",
+            "war"
+        ],
+        "creed": [
+            "boxing",
+            "ring",
+            "coach"
+        ],
+        "ratatouille": [
+            "chef",
+            "rat",
+            "paris"
+        ],
+        "insideout": [
+            "emotions",
+            "mind",
+            "memory"
+        ],
+        "findingnemo": [
+            "fish",
+            "ocean",
+            "father"
+        ],
+        "minions": [
+            "yellow",
+            "villain",
+            "banana"
+        ],
+        "cinderella": [
+            "shoe",
+            "princess",
+            "ball"
+        ],
+        "pinocchio": [
+            "wood",
+            "lie",
+            "boy"
+        ],
+        "cruella": [
+            "dogs",
+            "fashion",
+            "villain"
+        ],
+        "blackpanther": [
+            "wakanda",
+            "king",
+            "suit"
+        ]
+    }
+}

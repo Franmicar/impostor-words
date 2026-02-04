@@ -8,6 +8,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Package } from '../models/package.model';
+import { LoadingService } from './loading';
+import { GameDataService } from './game-data';
 
 @Injectable({
   providedIn: 'root',
@@ -16,11 +18,11 @@ export class GameStateService {
 
   private _game!: Game;
   private readonly STORAGE_KEY = 'game_state';
-  public currentPlayerIndex = 0;
 
   allowExit = false;
 
-  constructor(private configService: GameConfig, private router: Router, private http: HttpClient) {
+  constructor(private configService: GameConfig, private router: Router,
+    private gameData: GameDataService, private loadingService: LoadingService) {
     this.loadOrCreate();
     this.router.events
       .pipe(filter(event => event instanceof NavigationEnd))
@@ -43,7 +45,6 @@ export class GameStateService {
   /** Resetear a valores por defecto */
   reset(): void {
     this._game = new Game();
-    this.currentPlayerIndex = 0;
     this.persist();
   }
 
@@ -70,12 +71,16 @@ export class GameStateService {
     );
   }
 
+  /** ---------- Game ---------- */
+
   startGame() {
+    this.loadingService.show();
     this.pickRandomWord().subscribe(word => {
 
       this.update({
         word,
-        state: 'revealing'
+        state: 'revealing',
+        hintType: this.configService.config.hints
       });
 
       this.pickImpostors();
@@ -83,9 +88,9 @@ export class GameStateService {
   }
 
   getSelectedPackages(): Observable<Package[]> {
-    return this.http.get<Package[]>('data/packages.json').pipe(
-      map(allPackages =>
-        allPackages.filter(pkg =>
+    return this.gameData.getAllPackages().pipe(
+      map(all =>
+        all.filter(pkg =>
           this.configService.config.packages.includes(pkg.category)
         )
       )
@@ -96,26 +101,15 @@ export class GameStateService {
     return this.getSelectedPackages().pipe(
       map(pkgs =>
         pkgs.flatMap(pkg =>
-          pkg.words.map(word => `${pkg.category}.${word}`)
+          pkg.words.map(w => `${pkg.category}.${w}`)
         )
       )
     );
   }
 
-  nextPlayer() {
-    this.currentPlayerIndex++;
-  }
-
-  isLastPlayer() {
-    return this.currentPlayerIndex === this.configService.config.players.length - 1;
-  }
-
   private pickRandomWord(): Observable<string> {
     return this.getAllSelectedWords().pipe(
-      map(words => {
-        const idx = Math.floor(Math.random() * words.length);
-        return words[idx];
-      })
+      map(words => words[Math.floor(Math.random() * words.length)])
     );
   }
 
@@ -156,7 +150,7 @@ export class GameStateService {
   }
 
   getRole(index: number): Role {
-    return this.configService.config.players[index]?.role ?? 'civilian';
+    return this.game.players[index]?.role ?? 'civilian';
   }
 
   isImpostor(index: number): boolean {

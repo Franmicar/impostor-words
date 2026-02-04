@@ -1,0 +1,204 @@
+{
+    "music": {
+        "guitar": [
+            "strings",
+            "rock",
+            "chord"
+        ],
+        "piano": [
+            "keys",
+            "classical",
+            "melody"
+        ],
+        "drums": [
+            "rhythm",
+            "sticks",
+            "drums"
+        ],
+        "violin": [
+            "bow",
+            "orchestra",
+            "classical"
+        ],
+        "trumpet": [
+            "metal",
+            "blow",
+            "jazz"
+        ],
+        "saxophone": [
+            "jazz",
+            "metal",
+            "curved"
+        ],
+        "flute": [
+            "wood",
+            "blow",
+            "melody"
+        ],
+        "microphone": [
+            "voice",
+            "concert",
+            "sing"
+        ],
+        "headphones": [
+            "sound",
+            "music",
+            "isolate"
+        ],
+        "speaker": [
+            "speaker",
+            "volume",
+            "sound"
+        ],
+        "rock": [
+            "guitar",
+            "band",
+            "concert"
+        ],
+        "pop": [
+            "radio",
+            "catchy",
+            "dance"
+        ],
+        "jazz": [
+            "improvise",
+            "saxophone",
+            "club"
+        ],
+        "hiphop": [
+            "rap",
+            "rhythm",
+            "street"
+        ],
+        "reggaeton": [
+            "dance",
+            "rhythm",
+            "latin"
+        ],
+        "rap": [
+            "rhymes",
+            "mic",
+            "battle"
+        ],
+        "classical": [
+            "orchestra",
+            "symphony",
+            "piano"
+        ],
+        "opera": [
+            "theater",
+            "sing",
+            "orchestra"
+        ],
+        "electronic": [
+            "synthesizer",
+            "dj",
+            "beats"
+        ],
+        "house": [
+            "club",
+            "dj",
+            "dance"
+        ],
+        "dj": [
+            "mix",
+            "party",
+            "turntables"
+        ],
+        "concert": [
+            "stage",
+            "lights",
+            "crowd"
+        ],
+        "festival": [
+            "stage",
+            "tents",
+            "music"
+        ],
+        "band": [
+            "group",
+            "instruments",
+            "vocalist"
+        ],
+        "orchestra": [
+            "violins",
+            "conductor",
+            "classical"
+        ],
+        "choir": [
+            "choir",
+            "church",
+            "voices"
+        ],
+        "melody": [
+            "song",
+            "harmony",
+            "sound"
+        ],
+        "rhythm": [
+            "tempo",
+            "time",
+            "beat"
+        ],
+        "beat": [
+            "rhythm",
+            "kick",
+            "base"
+        ],
+        "lyrics": [
+            "lyrics",
+            "song",
+            "rhymes"
+        ],
+        "album": [
+            "record",
+            "cover",
+            "songs"
+        ],
+        "playlist": [
+            "songs",
+            "order",
+            "spotify"
+        ],
+        "spotify": [
+            "streaming",
+            "music",
+            "app"
+        ],
+        "tiktok": [
+            "videos",
+            "dance",
+            "trend"
+        ],
+        "karaoke": [
+            "sing",
+            "lyrics",
+            "microphone"
+        ],
+        "studio": [
+            "recording",
+            "mics",
+            "booth"
+        ],
+        "mixer": [
+            "mix",
+            "sound",
+            "channels"
+        ],
+        "synth": [
+            "electronic",
+            "keys",
+            "sound"
+        ],
+        "bass": [
+            "low",
+            "rhythm",
+            "bass"
+        ],
+        "ukulele": [
+            "strings",
+            "hawaiian",
+            "small"
+        ]
+    }
+}

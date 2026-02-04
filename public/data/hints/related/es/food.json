@@ -1,0 +1,204 @@
+{
+    "food": {
+        "pizza": [
+            "queso",
+            "horno",
+            "masa"
+        ],
+        "burger": [
+            "carne",
+            "pan",
+            "patatas"
+        ],
+        "pasta": [
+            "italia",
+            "salsa",
+            "fideos"
+        ],
+        "sushi": [
+            "arroz",
+            "pescado",
+            "soja"
+        ],
+        "apple": [
+            "fruta",
+            "roja",
+            "árbol"
+        ],
+        "banana": [
+            "amarilla",
+            "mono",
+            "tropical"
+        ],
+        "chocolate": [
+            "cacao",
+            "dulce",
+            "postre"
+        ],
+        "cake": [
+            "cumpleaños",
+            "horno",
+            "crema"
+        ],
+        "bread": [
+            "harina",
+            "horno",
+            "panadería"
+        ],
+        "salad": [
+            "lechuga",
+            "verduras",
+            "aceite"
+        ],
+        "steak": [
+            "carne",
+            "parrilla",
+            "vaca"
+        ],
+        "taco": [
+            "maíz",
+            "mexico",
+            "salsa"
+        ],
+        "paella": [
+            "arroz",
+            "marisco",
+            "valencia"
+        ],
+        "ramen": [
+            "fideos",
+            "caldo",
+            "japón"
+        ],
+        "icecream": [
+            "frío",
+            "verano",
+            "dulce"
+        ],
+        "donut": [
+            "rosquilla",
+            "azúcar",
+            "horno"
+        ],
+        "croissant": [
+            "francia",
+            "mantequilla",
+            "desayuno"
+        ],
+        "cheese": [
+            "leche",
+            "vaca",
+            "maduro"
+        ],
+        "sandwich": [
+            "pan",
+            "relleno",
+            "bocadillo"
+        ],
+        "soup": [
+            "caldo",
+            "cuchara",
+            "caliente"
+        ],
+        "noodles": [
+            "fideos",
+            "asiático",
+            "sartén"
+        ],
+        "rice": [
+            "arroz",
+            "blanco",
+            "grano"
+        ],
+        "curry": [
+            "india",
+            "especias",
+            "picante"
+        ],
+        "pancake": [
+            "desayuno",
+            "sirope",
+            "sartén"
+        ],
+        "waffle": [
+            "rejilla",
+            "dulce",
+            "desayuno"
+        ],
+        "hotdog": [
+            "salchicha",
+            "mostaza",
+            "pan"
+        ],
+        "fries": [
+            "patatas",
+            "fritas",
+            "ketchup"
+        ],
+        "milkshake": [
+            "leche",
+            "helado",
+            "batido"
+        ],
+        "cookie": [
+            "galleta",
+            "chocolate",
+            "horno"
+        ],
+        "muffin": [
+            "panecillo",
+            "horno",
+            "desayuno"
+        ],
+        "yogurt": [
+            "leche",
+            "fermento",
+            "cremoso"
+        ],
+        "hummus": [
+            "garbanzo",
+            "tahini",
+            "mediooriente"
+        ],
+        "falafel": [
+            "garbanzo",
+            "frito",
+            "pita"
+        ],
+        "kebab": [
+            "carne",
+            "asador",
+            "turquía"
+        ],
+        "burrito": [
+            "tortilla",
+            "mexico",
+            "frijoles"
+        ],
+        "lasagna": [
+            "pasta",
+            "horno",
+            "capas"
+        ],
+        "gnocchi": [
+            "patata",
+            "italia",
+            "pasta"
+        ],
+        "risotto": [
+            "arroz",
+            "cremoso",
+            "italia"
+        ],
+        "omelette": [
+            "huevo",
+            "sartén",
+            "amarillo"
+        ],
+        "tofu": [
+            "soja",
+            "vegano",
+            "blanco"
+        ]
+    }
+}

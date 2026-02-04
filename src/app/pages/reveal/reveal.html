@@ -1,17 +1,30 @@
 <app-title title="reveal"></app-title>
-<div class="body-container">
+<div class="body-container adjust-card-container">
     <mat-card>
 
         <mat-card-title>
-            <h2>{{ currentPlayerName }}</h2>
+            <h2>{{ currentPlayerName() }}</h2>
         </mat-card-title>
 
         <mat-card-content class="content">
             <div class="reveal-wrapper">
 
                 <!-- TEXTO REVELADO -->
-                <div class="hidden-word" [style.color]="isImpostor ? '#8b0000' : '#1a8cd8'">
-                    {{ isImpostor ? 'IMPOSTOR' : ('words.' + gameStateService.game.word | translate) }}
+                <div class="hidden-word">
+                    <div [class.civilian-word]="!isImpostor()" [class.impostor-word]="isImpostor()">{{ isImpostor() ?
+                        'IMPOSTOR' : displayedWord }}</div>
+                    @switch (hintType) {
+                    @case ('first') {
+                    @if (isImpostor() && isFirstPlayer()) {
+                    <div class="hint">{{ 'hint' | translate}}: {{ currentHint }}</div>
+                    }
+                    }
+                    @case ('all') {
+                    @if (isImpostor()) {
+                    <div class="hint">{{ 'hint' | translate}}: {{ currentHint }}</div>
+                    }
+                    }
+                    }
                 </div>
 
                 <!-- CARD DESLIZABLE -->
@@ -25,8 +38,8 @@
         </mat-card-content>
     </mat-card>
 
-    @if (revealed) {
-    @if (gameStateService.isLastPlayer()) {
+    @if (revealed()) {
+    @if (isLastPlayer()) {
     <app-button label="play" variant="filled" (action)="play()"></app-button>
     } @else {
     <app-button label="nextPlayer" variant="filled" (action)="next()"></app-button>

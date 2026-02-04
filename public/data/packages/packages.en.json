@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "food": {
+            "category": "Food",
+            "description": "Dishes and foods from around the world"
+        },
+        "movies": {
+            "category": "Movies",
+            "description": "Film titles and cinematic references"
+        },
+        "animals": {
+            "category": "Animals",
+            "description": "Wildlife from different ecosystems"
+        },
+        "basic": {
+            "category": "Basic",
+            "description": "Everyday words and common objects"
+        },
+        "sports": {
+            "category": "Sports",
+            "description": "Sports disciplines and concepts"
+        },
+        "anime": {
+            "category": "Anime & Manga",
+            "description": "Characters and references from anime"
+        },
+        "videogames": {
+            "category": "Videogames",
+            "description": "Characters and worlds from games"
+        },
+        "travel": {
+            "category": "Travel",
+            "description": "Places and travel experiences"
+        },
+        "music": {
+            "category": "Music",
+            "description": "Instruments, genres and music culture"
+        },
+        "technology": {
+            "category": "Technology",
+            "description": "Digital concepts, programming and devices"
+        }
+    }
+}

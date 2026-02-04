@@ -1,0 +1,189 @@
+{
+    "videogames": {
+        "mario": [
+            "bigote",
+            "tubería",
+            "setas"
+        ],
+        "zelda": [
+            "princesa",
+            "espada",
+            "link"
+        ],
+        "link": [
+            "héroe",
+            "escudo",
+            "espada"
+        ],
+        "kirby": [
+            "rosado",
+            "tragar",
+            "estrella"
+        ],
+        "sonic": [
+            "velocidad",
+            "anillos",
+            "azul"
+        ],
+        "tails": [
+            "avión",
+            "doscolas",
+            "amigo"
+        ],
+        "kratos": [
+            "dios",
+            "hacha",
+            "ira"
+        ],
+        "atreus": [
+            "arco",
+            "flecha",
+            "hijo"
+        ],
+        "masterchief": [
+            "armadura",
+            "halo",
+            "soldado"
+        ],
+        "cortana": [
+            "ia",
+            "azul",
+            "halo"
+        ],
+        "pikachu": [
+            "eléctrico",
+            "amarillo",
+            "ratón"
+        ],
+        "squirtle": [
+            "agua",
+            "tortuga",
+            "azul"
+        ],
+        "charmander": [
+            "fuego",
+            "lagarto",
+            "cola"
+        ],
+        "bulbasaur": [
+            "planta",
+            "semilla",
+            "verde"
+        ],
+        "minecraft": [
+            "bloques",
+            "minar",
+            "pixel"
+        ],
+        "creeper": [
+            "explosión",
+            "verde",
+            "sorpresa"
+        ],
+        "enderman": [
+            "teletransporte",
+            "negro",
+            "alto"
+        ],
+        "roblox": [
+            "bloques",
+            "multijugador",
+            "avatar"
+        ],
+        "fortnite": [
+            "battle",
+            "isla",
+            "bailes"
+        ],
+        "valorant": [
+            "táctico",
+            "disparos",
+            "equipo"
+        ],
+        "overwatch": [
+            "héroes",
+            "equipo",
+            "disparos"
+        ],
+        "leagueoflegends": [
+            "moba",
+            "torres",
+            "campeones"
+        ],
+        "warzone": [
+            "batalla",
+            "mapa",
+            "disparos"
+        ],
+        "callofduty": [
+            "guerra",
+            "armas",
+            "soldados"
+        ],
+        "tetris": [
+            "bloques",
+            "encajar",
+            "filas"
+        ],
+        "pacman": [
+            "fantasmas",
+            "bolas",
+            "laberinto"
+        ],
+        "doom": [
+            "demonios",
+            "disparos",
+            "infierno"
+        ],
+        "eldenring": [
+            "fantasía",
+            "jefe",
+            "mundo"
+        ],
+        "darksouls": [
+            "dificultad",
+            "fogata",
+            "muerte"
+        ],
+        "godofwar": [
+            "mitología",
+            "hacha",
+            "kratos"
+        ],
+        "uncharted": [
+            "tesoro",
+            "aventura",
+            "nathan"
+        ],
+        "lastofus": [
+            "infectados",
+            "apocalipsis",
+            "joel"
+        ],
+        "horizon": [
+            "máquinas",
+            "arco",
+            "aloy"
+        ],
+        "halo": [
+            "anillo",
+            "ciencia",
+            "guerra"
+        ],
+        "portal": [
+            "portales",
+            "puzzle",
+            "arma"
+        ],
+        "halflife": [
+            "científico",
+            "gordon",
+            "alien"
+        ],
+        "cyberpunk": [
+            "futuro",
+            "neón",
+            "ciudad"
+        ]
+    }
+}

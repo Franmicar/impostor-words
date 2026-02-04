@@ -23,22 +23,22 @@ export class Mode implements OnInit {
     {
       title: 'classic',
       img: 'images/modes/impostor.jpg',
-      text: 'mode.classic',
+      description: 'mode.classic',
     },
     {
       title: 'mysterious',
       img: 'images/modes/detective.png',
-      text: 'mode.mysterious',
+      description: 'mode.mysterious',
     },
     {
       title: 'chaos',
       img: 'images/modes/caos.jpeg',
-      text: 'mode.chaos',
+      description: 'mode.chaos',
     },
     {
       title: 'custom',
       img: 'images/modes/custom.jpg',
-      text: 'mode.custom',
+      description: 'mode.custom',
     },
   ];
 

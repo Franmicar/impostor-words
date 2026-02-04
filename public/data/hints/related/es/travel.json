@@ -1,0 +1,204 @@
+{
+    "travel": {
+        "paris": [
+            "torre",
+            "francia",
+            "amor"
+        ],
+        "london": [
+            "bigben",
+            "reino",
+            "niebla"
+        ],
+        "newyork": [
+            "rascacielos",
+            "ciudad",
+            "times"
+        ],
+        "tokyo": [
+            "neón",
+            "tren",
+            "tecnología"
+        ],
+        "rome": [
+            "coliseo",
+            "historia",
+            "italia"
+        ],
+        "barcelona": [
+            "sagrada",
+            "playa",
+            "gaudí"
+        ],
+        "madrid": [
+            "puerta",
+            "sol",
+            "museo"
+        ],
+        "berlin": [
+            "muro",
+            "historia",
+            "bici"
+        ],
+        "amsterdam": [
+            "canales",
+            "bicis",
+            "tulipanes"
+        ],
+        "dubai": [
+            "rascacielos",
+            "lujo",
+            "desierto"
+        ],
+        "airport": [
+            "avión",
+            "maleta",
+            "checkin"
+        ],
+        "passport": [
+            "viaje",
+            "sello",
+            "documento"
+        ],
+        "ticket": [
+            "vuelo",
+            "reserva",
+            "asiento"
+        ],
+        "hotel": [
+            "habitación",
+            "llaves",
+            "recepción"
+        ],
+        "beach": [
+            "arena",
+            "olas",
+            "sol"
+        ],
+        "island": [
+            "palmeras",
+            "mar",
+            "arena"
+        ],
+        "mountain": [
+            "cumbre",
+            "nieve",
+            "sendero"
+        ],
+        "desert": [
+            "arena",
+            "sol",
+            "camellos"
+        ],
+        "train": [
+            "vías",
+            "estación",
+            "rápido"
+        ],
+        "subway": [
+            "metro",
+            "túnel",
+            "andén"
+        ],
+        "roadtrip": [
+            "coche",
+            "carretera",
+            "viaje"
+        ],
+        "camping": [
+            "tienda",
+            "fuego",
+            "naturaleza"
+        ],
+        "backpack": [
+            "mochila",
+            "sendero",
+            "viaje"
+        ],
+        "map": [
+            "rutas",
+            "direcciones",
+            "papel"
+        ],
+        "compass": [
+            "norte",
+            "orientación",
+            "aguja"
+        ],
+        "camera": [
+            "foto",
+            "recuerdo",
+            "viaje"
+        ],
+        "souvenir": [
+            "recuerdo",
+            "tienda",
+            "regalo"
+        ],
+        "museum": [
+            "arte",
+            "historia",
+            "exposición"
+        ],
+        "monument": [
+            "estatua",
+            "historia",
+            "turismo"
+        ],
+        "cruise": [
+            "barco",
+            "mar",
+            "vacaciones"
+        ],
+        "plane": [
+            "vuelo",
+            "nubes",
+            "piloto"
+        ],
+        "helicopter": [
+            "hélice",
+            "aire",
+            "rescate"
+        ],
+        "boat": [
+            "mar",
+            "remo",
+            "puerto"
+        ],
+        "kayak": [
+            "remo",
+            "agua",
+            "río"
+        ],
+        "scooter": [
+            "ruedas",
+            "ciudad",
+            "eléctrico"
+        ],
+        "bicycle": [
+            "pedales",
+            "rueda",
+            "carril"
+        ],
+        "taxi": [
+            "coche",
+            "ciudad",
+            "chofer"
+        ],
+        "bus": [
+            "parada",
+            "asiento",
+            "ruta"
+        ],
+        "hostel": [
+            "mochileros",
+            "barato",
+            "camas"
+        ],
+        "airbnb": [
+            "alquiler",
+            "casa",
+            "viaje"
+        ]
+    }
+}

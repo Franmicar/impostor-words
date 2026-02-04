@@ -81,7 +81,9 @@ export class Home implements OnInit {
         max = this.configService.config.players.length - 2;
         if (item.amount && item.amount < max) {
           item.amount++;
-          this.configService.config.impostors = item.amount;
+          this.configService.update({
+            impostors: item.amount
+          });
         }
         break;
       case 'detectives':
@@ -101,7 +103,9 @@ export class Home implements OnInit {
         min = this.configService.config.minImpostors;
         if (item.amount && min && item.amount > min) {
           item.amount--;
-          this.configService.config.impostors = item.amount;
+          this.configService.update({
+            impostors: item.amount
+          });
         }
         break;
       case 'detectives':
@@ -116,7 +120,9 @@ export class Home implements OnInit {
 
   play() {
     this.gameState.startGame();
-    this.router.navigate(['/reveal']);
+    setTimeout(() => {
+      this.router.navigate(['/reveal']);
+    }, 2000);
   }
 
 }

@@ -1,0 +1,204 @@
+{
+    "movies": {
+        "titanic": [
+            "barco",
+            "hielo",
+            "amor"
+        ],
+        "inception": [
+            "sueño",
+            "mente",
+            "laberinto"
+        ],
+        "avatar": [
+            "azul",
+            "selva",
+            "alien"
+        ],
+        "frozen": [
+            "hielo",
+            "nieve",
+            "princesa"
+        ],
+        "jaws": [
+            "tiburón",
+            "mar",
+            "playa"
+        ],
+        "gladiator": [
+            "arena",
+            "roma",
+            "batalla"
+        ],
+        "rocky": [
+            "boxeo",
+            "ring",
+            "entrenamiento"
+        ],
+        "matrix": [
+            "realidad",
+            "computadora",
+            "pastilla"
+        ],
+        "up": [
+            "globos",
+            "casa",
+            "aventura"
+        ],
+        "interstellar": [
+            "espacio",
+            "tiempo",
+            "nasa"
+        ],
+        "batman": [
+            "ciudad",
+            "murciélago",
+            "villano"
+        ],
+        "joker": [
+            "payaso",
+            "locura",
+            "caos"
+        ],
+        "spiderman": [
+            "araña",
+            "edificio",
+            "telaraña"
+        ],
+        "starwars": [
+            "nave",
+            "espada",
+            "galaxia"
+        ],
+        "harrypotter": [
+            "magia",
+            "varita",
+            "escuela"
+        ],
+        "toystory": [
+            "juguetes",
+            "vaquero",
+            "niño"
+        ],
+        "coco": [
+            "familia",
+            "música",
+            "méxico"
+        ],
+        "encanto": [
+            "familia",
+            "magia",
+            "colombia"
+        ],
+        "dune": [
+            "desierto",
+            "arena",
+            "especia"
+        ],
+        "bladerunner": [
+            "android",
+            "ciudad",
+            "futuro"
+        ],
+        "jurassicpark": [
+            "dinosaurio",
+            "isla",
+            "científico"
+        ],
+        "godfather": [
+            "mafia",
+            "familia",
+            "italia"
+        ],
+        "terminator": [
+            "robot",
+            "futuro",
+            "máquina"
+        ],
+        "predator": [
+            "alien",
+            "selva",
+            "caza"
+        ],
+        "alien": [
+            "espacio",
+            "monstruo",
+            "nave"
+        ],
+        "shrek": [
+            "ogro",
+            "pantano",
+            "dragón"
+        ],
+        "madagascar": [
+            "zoo",
+            "isla",
+            "animales"
+        ],
+        "moana": [
+            "océano",
+            "isla",
+            "viaje"
+        ],
+        "lionking": [
+            "sabana",
+            "león",
+            "familia"
+        ],
+        "aladdin": [
+            "lámpara",
+            "genio",
+            "desierto"
+        ],
+        "topgun": [
+            "avión",
+            "piloto",
+            "guerra"
+        ],
+        "creed": [
+            "boxeo",
+            "ring",
+            "entrenador"
+        ],
+        "ratatouille": [
+            "chef",
+            "rata",
+            "parís"
+        ],
+        "insideout": [
+            "emociones",
+            "mente",
+            "memoria"
+        ],
+        "findingnemo": [
+            "pez",
+            "océano",
+            "padre"
+        ],
+        "minions": [
+            "amarillo",
+            "villano",
+            "banana"
+        ],
+        "cinderella": [
+            "zapato",
+            "princesa",
+            "baile"
+        ],
+        "pinocchio": [
+            "madera",
+            "mentira",
+            "niño"
+        ],
+        "cruella": [
+            "perros",
+            "moda",
+            "villana"
+        ],
+        "blackpanther": [
+            "wakanda",
+            "rey",
+            "traje"
+        ]
+    }
+}

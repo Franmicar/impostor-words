@@ -7,7 +7,7 @@ import { Player } from '../../../core/models/player.model';
 export interface Data {
   title?: string;
   img?: string;
-  text?: string;
+  description?: string;
 }
 
 @Component({
@@ -39,17 +39,15 @@ export class DataCard implements OnInit {
   }
 
   hasText(data: Data | Package | Player): data is Data | Package {
-    return (data as any).text !== undefined;
+    return (data as any).description !== undefined;
   }
 
   getTitle() {
-    if (this.isData(this.data)) {
-      this.title = this.data.title || '';
-    } else if (this.isPlayer(this.data)) {
+    if (this.isPlayer(this.data)) {
       this.title = this.data.name || '';
       this.dataIsPlayer = true;
     } else {
-      this.title = 'categories.' + this.data.category || '';
+      this.title = this.data.title || '';
     }
   }
 

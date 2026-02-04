@@ -11,7 +11,7 @@
 .hidden-word {
     position: absolute;
     inset: 0;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
@@ -37,4 +37,22 @@
 .content {
     display: flex;
     justify-content: center;
+}
+
+.civilian-word {
+    color: #1a8cd8;
+}
+
+.impostor-word {
+    color: #8b0000;
+}
+
+.hint {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--border-subtle);
+}
+
+.adjust-card-container {
+    width: fit-content;
 }

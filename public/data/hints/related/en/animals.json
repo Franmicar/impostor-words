@@ -1,0 +1,204 @@
+{
+    "animals": {
+        "dog": [
+            "faithful",
+            "loyal",
+            "bark"
+        ],
+        "cat": [
+            "scratch",
+            "whiskers",
+            "purr"
+        ],
+        "lion": [
+            "savanna",
+            "mane",
+            "king"
+        ],
+        "tiger": [
+            "stripes",
+            "jungle",
+            "feline"
+        ],
+        "elephant": [
+            "trunk",
+            "giant",
+            "africa"
+        ],
+        "giraffe": [
+            "neck",
+            "tall",
+            "savanna"
+        ],
+        "monkey": [
+            "tree",
+            "banana",
+            "jump"
+        ],
+        "bear": [
+            "furry",
+            "forest",
+            "honey"
+        ],
+        "zebra": [
+            "stripes",
+            "africa",
+            "horse"
+        ],
+        "wolf": [
+            "pack",
+            "night",
+            "howl"
+        ],
+        "shark": [
+            "sea",
+            "teeth",
+            "swimmer"
+        ],
+        "dolphin": [
+            "sea",
+            "smart",
+            "jump"
+        ],
+        "whale": [
+            "ocean",
+            "giant",
+            "spout"
+        ],
+        "octopus": [
+            "tentacles",
+            "sea",
+            "ink"
+        ],
+        "penguin": [
+            "ice",
+            "antarctica",
+            "bird"
+        ],
+        "eagle": [
+            "sky",
+            "vision",
+            "flight"
+        ],
+        "parrot": [
+            "color",
+            "talk",
+            "cage"
+        ],
+        "owl": [
+            "night",
+            "silent",
+            "wise"
+        ],
+        "snake": [
+            "reptile",
+            "venom",
+            "serpent"
+        ],
+        "crocodile": [
+            "river",
+            "teeth",
+            "reptile"
+        ],
+        "kangaroo": [
+            "pouch",
+            "jump",
+            "australia"
+        ],
+        "koala": [
+            "eucalyptus",
+            "australia",
+            "bear"
+        ],
+        "panda": [
+            "bamboo",
+            "china",
+            "white"
+        ],
+        "rabbit": [
+            "ears",
+            "carrot",
+            "jump"
+        ],
+        "hamster": [
+            "wheel",
+            "small",
+            "cage"
+        ],
+        "horse": [
+            "sport",
+            "betting",
+            "farm"
+        ],
+        "cow": [
+            "methane",
+            "milk",
+            "farm"
+        ],
+        "sheep": [
+            "wool",
+            "field",
+            "farm"
+        ],
+        "goat": [
+            "mountain",
+            "milk",
+            "beard"
+        ],
+        "deer": [
+            "forest",
+            "antlers",
+            "herbivore"
+        ],
+        "fox": [
+            "clever",
+            "forest",
+            "tail"
+        ],
+        "bat": [
+            "flight",
+            "night",
+            "cave"
+        ],
+        "ant": [
+            "insect",
+            "colony",
+            "work"
+        ],
+        "bee": [
+            "yellow",
+            "honey",
+            "hive"
+        ],
+        "butterfly": [
+            "beautiful",
+            "wings",
+            "flower"
+        ],
+        "spider": [
+            "insect",
+            "legs",
+            "venom"
+        ],
+        "crab": [
+            "sea",
+            "claws",
+            "walk"
+        ],
+        "turtle": [
+            "sea",
+            "shell",
+            "slow"
+        ],
+        "frog": [
+            "tongue",
+            "jump",
+            "pond"
+        ],
+        "lizard": [
+            "tail",
+            "reptile",
+            "sun"
+        ]
+    }
+}

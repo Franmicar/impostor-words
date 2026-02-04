@@ -1,0 +1,204 @@
+{
+    "food": {
+        "pizza": [
+            "cheese",
+            "oven",
+            "dough"
+        ],
+        "burger": [
+            "meat",
+            "bread",
+            "fries"
+        ],
+        "pasta": [
+            "italy",
+            "sauce",
+            "noodles"
+        ],
+        "sushi": [
+            "rice",
+            "fish",
+            "soy"
+        ],
+        "apple": [
+            "fruit",
+            "red",
+            "tree"
+        ],
+        "banana": [
+            "yellow",
+            "monkey",
+            "tropical"
+        ],
+        "chocolate": [
+            "cocoa",
+            "sweet",
+            "dessert"
+        ],
+        "cake": [
+            "birthday",
+            "oven",
+            "cream"
+        ],
+        "bread": [
+            "flour",
+            "oven",
+            "bakery"
+        ],
+        "salad": [
+            "lettuce",
+            "vegetables",
+            "oil"
+        ],
+        "steak": [
+            "meat",
+            "grill",
+            "cow"
+        ],
+        "taco": [
+            "corn",
+            "mexico",
+            "sauce"
+        ],
+        "paella": [
+            "rice",
+            "seafood",
+            "valencia"
+        ],
+        "ramen": [
+            "noodles",
+            "broth",
+            "japan"
+        ],
+        "icecream": [
+            "cold",
+            "summer",
+            "sweet"
+        ],
+        "donut": [
+            "doughnut",
+            "sugar",
+            "oven"
+        ],
+        "croissant": [
+            "france",
+            "butter",
+            "breakfast"
+        ],
+        "cheese": [
+            "milk",
+            "cow",
+            "aged"
+        ],
+        "sandwich": [
+            "bread",
+            "filling",
+            "snack"
+        ],
+        "soup": [
+            "broth",
+            "spoon",
+            "hot"
+        ],
+        "noodles": [
+            "noodles",
+            "asian",
+            "pan"
+        ],
+        "rice": [
+            "rice",
+            "white",
+            "grain"
+        ],
+        "curry": [
+            "india",
+            "spices",
+            "spicy"
+        ],
+        "pancake": [
+            "breakfast",
+            "syrup",
+            "pan"
+        ],
+        "waffle": [
+            "grid",
+            "sweet",
+            "breakfast"
+        ],
+        "hotdog": [
+            "sausage",
+            "mustard",
+            "bread"
+        ],
+        "fries": [
+            "potatoes",
+            "fried",
+            "ketchup"
+        ],
+        "milkshake": [
+            "milk",
+            "icecream",
+            "shake"
+        ],
+        "cookie": [
+            "cookie",
+            "chocolate",
+            "oven"
+        ],
+        "muffin": [
+            "bun",
+            "oven",
+            "breakfast"
+        ],
+        "yogurt": [
+            "milk",
+            "ferment",
+            "creamy"
+        ],
+        "hummus": [
+            "chickpea",
+            "tahini",
+            "middleeast"
+        ],
+        "falafel": [
+            "chickpea",
+            "fried",
+            "pita"
+        ],
+        "kebab": [
+            "meat",
+            "grill",
+            "turkey"
+        ],
+        "burrito": [
+            "tortilla",
+            "mexico",
+            "beans"
+        ],
+        "lasagna": [
+            "pasta",
+            "oven",
+            "layers"
+        ],
+        "gnocchi": [
+            "potato",
+            "italy",
+            "pasta"
+        ],
+        "risotto": [
+            "rice",
+            "creamy",
+            "italy"
+        ],
+        "omelette": [
+            "egg",
+            "pan",
+            "yellow"
+        ],
+        "tofu": [
+            "soy",
+            "vegan",
+            "white"
+        ]
+    }
+}

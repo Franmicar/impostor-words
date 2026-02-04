@@ -10,6 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { Button } from '../../shared/components/button/button';
 import { DataCard } from '../../shared/components/data-card/data-card';
 import { TitleComponent } from '../../shared/components/title/title';
+import { GameDataService } from '../../core/services/game-data';
 
 @Component({
   selector: 'app-packages',
@@ -22,18 +23,15 @@ export class Packages implements OnInit {
   packages$!: Observable<Package[]>;
   selectedCategories = new Set<string>();
 
-  constructor(private router: Router, private configService: GameConfig, private http: HttpClient) { }
+  constructor(private router: Router, private configService: GameConfig, private gameData: GameDataService) { }
 
   ngOnInit(): void {
-    this.packages$ = this.getPackages();
+    this.packages$ = this.gameData.getAllPackagesCards();
+
     // Precargar selección desde la configuración (ahora son strings)
     this.configService.config.packages.forEach(category =>
       this.selectedCategories.add(category)
     );
-  }
-
-  getPackages() {
-    return this.http.get<Package[]>('data/packages.json');
   }
 
   togglePackage(category: string) {

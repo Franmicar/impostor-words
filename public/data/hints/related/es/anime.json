@@ -1,0 +1,199 @@
+{
+    "anime": {
+        "naruto": [
+            "ninja",
+            "aldea",
+            "chakra"
+        ],
+        "sakura": [
+            "flor",
+            "rosa",
+            "primavera"
+        ],
+        "sasuke": [
+            "venganza",
+            "sharingan",
+            "espada"
+        ],
+        "goku": [
+            "sayajin",
+            "kamehameha",
+            "nube"
+        ],
+        "vegeta": [
+            "orgullo",
+            "sayajin",
+            "príncipe"
+        ],
+        "luffy": [
+            "sombrero",
+            "goma",
+            "pirata"
+        ],
+        "zoro": [
+            "espadas",
+            "samurai",
+            "verde"
+        ],
+        "eren": [
+            "titán",
+            "muralla",
+            "venganza"
+        ],
+        "mikasa": [
+            "bufanda",
+            "espadas",
+            "soldado"
+        ],
+        "levi": [
+            "limpio",
+            "escuadrón",
+            "cuchillas"
+        ],
+        "tanjiro": [
+            "demonio",
+            "katana",
+            "familia"
+        ],
+        "nezuko": [
+            "demonio",
+            "bambú",
+            "caja"
+        ],
+        "zenitsu": [
+            "rayo",
+            "miedo",
+            "katana"
+        ],
+        "inosuke": [
+            "jabalí",
+            "espadas",
+            "fuerza"
+        ],
+        "light": [
+            "cuaderno",
+            "justicia",
+            "shinigami"
+        ],
+        "l": [
+            "detective",
+            "dulces",
+            "genio"
+        ],
+        "rem": [
+            "demonio",
+            "lealtad",
+            "cadena"
+        ],
+        "nami": [
+            "clima",
+            "dinero",
+            "nave"
+        ],
+        "sanji": [
+            "chef",
+            "cigarrillo",
+            "piernas"
+        ],
+        "chopper": [
+            "renos",
+            "medicina",
+            "sombrero"
+        ],
+        "totoro": [
+            "bosque",
+            "paraguas",
+            "gato"
+        ],
+        "spiritedaway": [
+            "espíritus",
+            "baños",
+            "dragón"
+        ],
+        "pikachu": [
+            "eléctrico",
+            "amarillo",
+            "ratón"
+        ],
+        "ash": [
+            "pokémon",
+            "gorra",
+            "entrenador"
+        ],
+        "sailormoon": [
+            "luna",
+            "magia",
+            "uniforme"
+        ],
+        "saitama": [
+            "calvo",
+            "puñetazo",
+            "héroe"
+        ],
+        "genos": [
+            "cyborg",
+            "fuego",
+            "discípulo"
+        ],
+        "itachi": [
+            "akatsuki",
+            "sharingan",
+            "hermano"
+        ],
+        "madara": [
+            "guerra",
+            "clan",
+            "ojo"
+        ],
+        "hinata": [
+            "timidez",
+            "byakugan",
+            "amor"
+        ],
+        "kakashi": [
+            "mascara",
+            "sharingan",
+            "ninja"
+        ],
+        "bakugo": [
+            "explosión",
+            "orgullo",
+            "héroe"
+        ],
+        "midoriya": [
+            "cuaderno",
+            "héroe",
+            "esfuerzo"
+        ],
+        "todoroki": [
+            "fuego",
+            "hielo",
+            "mitad"
+        ],
+        "kurama": [
+            "zorro",
+            "chakra",
+            "demonio"
+        ],
+        "yusuke": [
+            "espíritu",
+            "peleas",
+            "escuela"
+        ],
+        "gintoki": [
+            "espada",
+            "perezoso",
+            "comedia"
+        ],
+        "asuna": [
+            "espada",
+            "mundo",
+            "virtual"
+        ],
+        "kirito": [
+            "espada",
+            "mmo",
+            "protagonista"
+        ]
+    }
+}
